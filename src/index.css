@@ -1,0 +1,135 @@
+html {
+  display: flex;
+  background: url('../public/background.jpg') no-repeat center;
+  height: 100%;
+  background-size: cover;
+}
+
+body {
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.root {
+  min-width: 0;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  vertical-align: middle;
+  flex-grow: 1;
+}
+
+.app {
+  font-family: 'Open Sans';
+  width: 60%;
+  flex-flow: column;
+  margin: 0;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:left;
+  padding-block: 10px;
+  line-break: auto;
+}
+
+.intro > div {
+  border: 2px solid rgba(0,0,0,0.1); border-radius: 15px;
+}
+
+.intro > div > p {
+  margin: 25px 10px 25px 10px;
+
+}
+
+.content {
+  background: rgba(255,255,255,0.95); 
+  background-size: cover; 
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-flow: column;
+}
+
+.content * {
+  margin: 10px;
+}
+
+.title {
+  padding-block: 10px;
+  text-align: center;
+  flex: 0 1 auto;
+}
+
+
+.title > h1 {
+  margin-bottom: -5px;
+  font-weight: bold;
+}
+
+.title > h2 {
+  font-weight: 550;
+}
+
+
+.links {
+  font-weight: 625; 
+  text-align: center; 
+  display: flex; 
+  justify-content: center;
+  flex-flow: column;
+}
+
+.links * {
+  margin: 0;
+  color: inherit;
+  font-style: normal;
+}
+
+.footer {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: small;
+}
+
+.footer * {
+  margin: 0px;
+}
+
+.language-bar {
+  padding-block: 15px;
+  justify-content: right;
+  display: flex;
+}
+
+.language-bar > select {
+  border-radius: 15px;
+  min-width: 4.25vw;
+  text-align: center;
+  font-family: 'Open Sans';
+  background: rgba(255,255,255, 0.95);
+}
+
+
+@media only screen and (hover: none) and (pointer: coarse) {
+  .app {
+      width: 80%;
+  }
+  
+  .intro {
+      font-size: medium;
+  }
+
+  .title.jp {
+      font-size: 3.5vw;
+  }
+}

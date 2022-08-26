@@ -9,7 +9,7 @@ const strings = new LocalizedStrings({
         resume: "resume",
         email: "email",
 
-        intro_first: `Hi! I'm Brendon, a student studying Computer Science at The University of British Columbia in Vancouver, BC, Canada.`,
+        intro_first: `Hi! I'm Brendon, a Computer Science student at The University of British Columbia in Vancouver, BC, Canada.`,
         intro_second: `My interests in Computer Science lie in programming languages and distributed computing.`,
         intro_third: `In my free time, I like to play the guitar, look at keyboards that I can't afford and learn Japanese.`,
         intro_fourth: `I also like to apply new knowledge to my interests by working on game development & livestreaming related projects.`,

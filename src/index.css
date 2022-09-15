@@ -119,7 +119,7 @@ body {
 }
 
 
-@media only screen and (hover: none) and (pointer: coarse) {
+@media only screen and (hover: none) and (pointer: coarse) and (max-width: 425px) {
   .app {
       width: 80%;
   }

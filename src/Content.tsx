@@ -30,7 +30,7 @@ const Content = ({ lang }: ContentProps) => (
         >
           {strings.resume}
         </a>
-        ・<a href="mailto:brendontsim@gmail.com">{strings.email}</a>
+        ・<a href="mailto:contact@brendontsim.com">{strings.email}</a>
       </h4>
     </div>
 

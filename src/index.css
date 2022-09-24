@@ -22,7 +22,6 @@ body {
 
 .app {
   font-family: 'Open Sans';
-  width: 60%;
   flex-flow: column;
   margin: 0;
   font-size: large;

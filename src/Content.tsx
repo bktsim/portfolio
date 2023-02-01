@@ -23,11 +23,7 @@ const Content = ({ lang }: ContentProps) => (
           {strings.github}
         </a>
         ・
-        <a
-          href="https://docs.google.com/document/d/1YgtcOBAw-M7eMyr_exp_-IRxvV_XqXbgfBUVcx6UWWc/edit?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
           {strings.resume}
         </a>
         ・<a href="mailto:contact@brendontsim.com">{strings.email}</a>

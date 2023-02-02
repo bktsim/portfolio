@@ -20,13 +20,26 @@ const Content = ({ lang }: ContentProps) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {strings.github}
+          <img src="/svgs/github.svg" alt="github" />
+          <b>{strings.github}</b>
         </a>
-        ・
         <a href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
-          {strings.resume}
+          <img src="/svgs/resume.svg" alt="resume" />
+          <b>{strings.resume}</b>
         </a>
-        ・<a href="mailto:contact@brendontsim.com">{strings.email}</a>
+
+        <a href="mailto:contact@brendontsim.com">
+          <img src="/svgs/gmail.svg" alt="gmail" />
+          <b>{strings.email}</b>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/brendontsim/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/svgs/linkedin.svg" alt="linkedin" />
+          <b>{strings.linkedin}</b>
+        </a>
       </h4>
     </div>
 

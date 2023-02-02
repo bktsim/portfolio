@@ -8,6 +8,7 @@ const strings = new LocalizedStrings({
         github: "GitHub",
         resume: "Resume",
         email: "Email",
+        linkedin: "LinkedIn",
 
         intro_first: `Hi! I'm Brendon, a Computer Science student at The University of British Columbia in Vancouver, BC, Canada.`,
         intro_second: `My interests in Computer Science lie in programming languages, distributed computing and machine learning.`,
@@ -15,15 +16,16 @@ const strings = new LocalizedStrings({
         intro_fourth: `I also like to apply new knowledge to my interests by working on game development & livestreaming related projects.`,
         intro_fifth: `For academic, career opportunities or other enquiries, please contact me through my email.`,
 
-        footer: 'Background image by Laurence Lee',
+        footer: 'Background Image by Laurence Lee',
     },
     zh: {
         name: "詹耀鈞",
         subline: "軟件開發",
 
         github: "GitHub",
-        resume: "簡歷",
+        resume: "英文簡歷",
         email: "電郵",
+        linkedin: "LinkedIn",
 
         intro_first: `您好！我是耀鈞 (Brendon), 一位在英屬哥倫比亞大學裏修讀計算機科學的大學生。`,
         intro_second: `在計算機科學的領域裏，我對程式語言、分布式計算和機器學習這三個領域特別感興趣。`,
@@ -38,8 +40,9 @@ const strings = new LocalizedStrings({
         subline: "ソフトウェア開発",
 
         github: "GitHub",
-        resume: "履歴書",
+        resume: "英文履歴書",
         email: "メール",
+        linkedin: "LinkedIn",
 
         intro_first: `初めまして！カナダのブリティッシュコロンビア大学、コンピューターサイエンス専攻のブレンドン (Brendon) と申します。`,
         intro_second: `コンピューターサイエンスの分野の中で、プログラミング言語、分散システムと機械学習には興味があります。`,

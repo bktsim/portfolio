@@ -1,6 +1,6 @@
 html {
   display: flex;
-  background: url('../public/background.jpg') no-repeat center;
+  background: url('../../public/background.jpg') no-repeat center;
   height: 100%;
 }
 
@@ -90,6 +90,26 @@ body {
   margin: 0;
   color: inherit;
   font-style: normal;
+  font-weight: 1500;
+}
+
+.links > h4 {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.links > h4 > a {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.links > h4 > a > b {
+  align-self: center;
+}
+
+.links > h4 > a > img {
+  padding-right: 6px;  
+  max-height: 35px;
 }
 
 .footer {
@@ -104,17 +124,19 @@ body {
 }
 
 .language-bar {
-  padding-block: 15px;
+  padding-block: 10px;
   justify-content: right;
   display: flex;
 }
 
-.language-bar > select {
-  border-radius: 15px;
-  min-width: 4.25vw;
+.language-bar > button {
+  border-radius: 50px;
+  font-weight: bold;
+  background: rgba(239,239,239);
+  border: 2px ridge rgba(150,150,150);
+  padding: 3px 10px;
   text-align: center;
-  font-family: 'Open Sans';
-  background: rgba(255,255,255, 0.95);
+  margin: 0px 3px;
 }
 
 
@@ -129,5 +151,12 @@ body {
 
   .title.jp {
       font-size: 3.5vw;
+  }
+
+  .links > h4 {
+    display: grid;
+  }
+  .links > h4 > a {
+    padding: 8px 0px 8px 0px;
   }
 }

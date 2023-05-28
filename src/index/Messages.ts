@@ -11,7 +11,7 @@ const strings = new LocalizedStrings({
         linkedin: "LinkedIn",
 
         intro_first: `Hi! I'm Brendon, a Computer Science student at The University of British Columbia in Vancouver, BC, Canada.`,
-        intro_second: `My interests in Computer Science lie in programming languages, distributed computing and machine learning.`,
+        intro_second: `My interests in Computer Science lie in distributed systems, parallel computing and programming languages.`,
         intro_third: `In my free time, I like to play the guitar, look at keyboards that I can't afford and learn Japanese.`,
         intro_fourth: `I also like to apply new knowledge to my interests by working on game development & livestreaming related projects.`,
         intro_fifth: `For academic, career opportunities or other enquiries, please contact me through my email.`,
@@ -28,7 +28,7 @@ const strings = new LocalizedStrings({
         linkedin: "LinkedIn",
 
         intro_first: `您好！我是耀鈞 (Brendon), 一位在英屬哥倫比亞大學裏修讀計算機科學的大學生。`,
-        intro_second: `在計算機科學的領域裏，我對程式語言、分布式計算和機器學習這三個領域特別感興趣。`,
+        intro_second: `在計算機科學的領域裏，我對分布式計算、平行計算和程式語言這三個領域特別感興趣。`,
         intro_third: `在我空閑的時間，我喜歡彈吉他，追蹤有關我買不起的鍵盤的資訊和學習日文。`,
         intro_fourth: `我也喜歡透過研發游戲以及有關直播的科技去把學到的新知識應用到我的興趣裏。`,
         intro_fifth: `有關學術，工作的機會或其他查詢，請透過電郵聯絡我。`,
@@ -45,7 +45,7 @@ const strings = new LocalizedStrings({
         linkedin: "LinkedIn",
 
         intro_first: `初めまして！カナダのブリティッシュコロンビア大学、コンピューターサイエンス専攻のブレンドン (Brendon) と申します。`,
-        intro_second: `コンピューターサイエンスの分野の中で、プログラミング言語、分散システムと機械学習に中心として勉強しています。`,
+        intro_second: `コンピューターサイエンスの分野の中で、分散システム、並行計算とプログラミング言語に中心として勉強しています。`,
         intro_third: `暇な時はギターを引いたり、買えないキーボードを見たり、日本語を勉強したりします。`,
         intro_fourth: `ゲームと配信に関するプロジェクトを開発することで、学んだ知識を活かしています。`,
         intro_fifth: `学術・仕事の機会やお問い合わせはメールでご連絡くださいますようお願いいたします。`,

@@ -27,7 +27,7 @@ const strings = new LocalizedStrings({
         email: "電郵",
         linkedin: "LinkedIn",
 
-        intro_first: `您好！我是耀鈞 (Brendon), 一位在英屬哥倫比亞大學裏修讀計算機科學的大學生。`,
+        intro_first: `您好！我是耀鈞 (Brendon)，一位在英屬哥倫比亞大學裏修讀計算機科學的大學生。`,
         intro_second: `在計算機科學的領域裏，我對分布式計算、平行計算和程式語言這三個領域特別感興趣。`,
         intro_third: `在我空閑的時間，我喜歡彈吉他，追蹤有關我買不起的鍵盤的資訊和學習日文。`,
         intro_fourth: `我也喜歡透過研發游戲以及有關直播的科技去把學到的新知識應用到我的興趣裏。`,
@@ -44,7 +44,7 @@ const strings = new LocalizedStrings({
         email: "メール",
         linkedin: "LinkedIn",
 
-        intro_first: `初めまして！カナダのブリティッシュコロンビア大学、コンピューターサイエンス専攻のブレンドン (Brendon) と申します。`,
+        intro_first: `初めまして！カナダのブリティッシュコロンビア大学、コンピューターサイエンス専攻のブレンドン (Brendon) です。`,
         intro_second: `コンピューターサイエンスの分野の中で、分散システム、並行計算とプログラミング言語に中心として勉強しています。`,
         intro_third: `暇な時はギターを引いたり、買えないキーボードを見たり、日本語を勉強したりします。`,
         intro_fourth: `ゲームと配信に関するプロジェクトを開発することで、学んだ知識を活かしています。`,

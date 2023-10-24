@@ -28,16 +28,12 @@ const Content = ({ lang }: ContentProps) => (
           <b>{strings.resume}</b>
         </a>
 
-        {lang === "jp" && (
-          <a
-            href="/files/resume_jp.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        {/* {lang === "jp" && (
+          <a href="/files/履歴書.pdf" target="_blank" rel="noopener noreferrer">
             <img src="/svgs/resume.svg" alt="resume" />
-            <b>アルバイト履歴書 (日本語) </b>
+            <b>日本語履歴書</b>
           </a>
-        )}
+        )} */}
 
         <a href="mailto:contact@brendontsim.com">
           <img src="/svgs/gmail.svg" alt="gmail" />

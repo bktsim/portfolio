@@ -84,7 +84,7 @@
 					class="links"
 					class:selected={page === 'experience'}
 					class:unselected={page !== 'experience'}
-					href="/"
+					href="/experience"
 					aria-current="page">{text.experience}</a
 				>
 				<a

@@ -14,7 +14,7 @@
 </script>
 
 <header
-	class="flex md:sticky md:top-0 inset-x-0 flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm backdrop-blur-sm rounded"
+	class="flex md:sticky md:top-0 inset-x-0 flex-wrap md:justify-start md:flex-nowrap z-50 min-w-screen text-sm backdrop-blur-sm rounded"
 >
 	<nav
 		class="mt-6 relative max-w-[85rem] w-full bg-white border border-gray-200 rounded-[36px] mx-2 py-3 px-4 md:flex md:flex-row md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto dark:bg-gray-800 dark:border-gray-700"
@@ -93,14 +93,14 @@
 					class="links"
 					class:selected={page === 'projects'}
 					class:unselected={page !== 'projects'}
-					href="{base}/"
+					href="{base}/projects"
 					aria-current="page">{text.projects}</a
 				>
 				<a
 					class="links"
-					class:selected={page === 'fun'}
-					class:unselected={page !== 'fun'}
-					href="{base}/"
+					class:selected={page === 'hobbies'}
+					class:unselected={page !== 'hobbies'}
+					href="{base}/hobbies"
 					aria-current="page">{text.hobbies}</a
 				>
 				<!-- <a

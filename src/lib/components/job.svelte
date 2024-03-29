@@ -39,7 +39,7 @@
 <div class="mt-5 mr-10">
 	<button
 		type="button"
-		class="hs-collapse-open:shadow-lg hs-collapse-open:shadow-neutral-300/50 hs-collapse-toggle py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent hover:bg-neutral-200 Wdisabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 w-full"
+		class="border-1 border-black/10 hs-collapse-open:shadow-lg hs-collapse-open:shadow-neutral-300/50 hs-collapse-toggle py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border hover:bg-neutral-200 Wdisabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 w-full"
 		id={key}
 		data-hs-collapse="#{key}-heading"
 	>
@@ -53,7 +53,7 @@
 					<br class="visible sm:hidden" />
 					{jobTitle}
 				</h4>
-				<p>{jobDates}・{jobLocation}</p>
+				<p class="font-normal">{jobDates}・{jobLocation}</p>
 			</div>
 		</div>
 		<svg
@@ -74,10 +74,19 @@
 		class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300"
 		aria-labelledby={key}
 	>
-		<div class="mt-5 mx-6">
+		<div class="mt-5 mx-6 bg-slate-100 p-5 px-8 rounded-lg">
 			<p class="job-paragraph">
 				{jobParagraph}
 			</p>
+
+			<p class="mt-7 mb-3 font-light text-3xl text-gray-600 dark:text-gray-400">
+				main contributions:
+			</p>
+			<div class="ml-12 mt-1 text-lg">
+				{#each jobBulletPoints as bulletPoint}
+					<li>{bulletPoint}</li>
+				{/each}
+			</div>
 			<div class="justify-center sm:justify-end flex flex-row pt-5 flex-wrap">
 				{#each jobTags as tag}
 					<Badge color="green" content={tag} />
@@ -89,7 +98,7 @@
 
 <style>
 	.job-title {
-		@apply font-semibold;
+		@apply font-normal;
 		@apply text-base;
 		@apply md:text-2xl;
 		@apply lg:text-3xl;

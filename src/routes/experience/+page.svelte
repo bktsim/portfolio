@@ -1,7 +1,7 @@
 <script>
 	import Navbar from '$lib/components/navbar.svelte';
 	import Footer from '$lib/components/footer.svelte';
-
+	import TimelineItem from '$lib/components/timelineitem.svelte';
 	import Job from '$lib/components/job.svelte';
 </script>
 
@@ -33,8 +33,8 @@
 		<h4 class="title">internship experience</h4>
 		<div class="paragraph-container">
 			<p class="paragraph">
-				I have extensive internship experience across various different industries working in
-				embedded, backend and fullstack.
+				I have extensive real life software development experience across various different
+				industries, working in embedded, backend and fullstack applications.
 			</p>
 
 			<Job
@@ -45,6 +45,12 @@
 				jobLocation="Vancouver, Canada"
 				jobTags={['C++', 'Python', 'Redis', 'Linux', 'SQL', 'Computer Networking']}
 				jobParagraph="At Arista Networks, I worked on adding support for multi-asic devices, new tests & test infrastructure based on prior customer escalations, and prototypes of new features for SONiC, an open-source network operating system (NOS)."
+				jobBulletPoints={[
+					'Extended CLI configuration support for multi-asic devices with Python (and reading lots of high level design documents), enabling users to easily configure features and logging the same way they can with single-asic devices.',
+					'Prototyped drop counter monitoring in C++, enabling users to configure rules and receive alerts, increasing network observability.',
+					'Expanded test-suite for QoS features to include IPv6 based on problems discovered in customer escalation, preventing further regressions.',
+					'Debugged and fixed bugs in configuration-related features by capturing packets using tcpdump and tracing source of errors.'
+				]}
 			/>
 			<Job
 				key="alida"
@@ -54,6 +60,7 @@
 				jobLocation="Vancouver, Canada"
 				jobTags={['TypeScript', 'C#', 'HTML', 'CSS', 'JavaScript', 'React', 'SQL']}
 				jobParagraph="At Alida, I created interactive and WCAG-compliant web-accessible components with React, TypeScript and Jest; Owned the architecture for migrating the frontend to a new backend API and worked on product features."
+				jobBulletPoints={[]}
 			/>
 			<Job
 				key="kaishing"
@@ -74,6 +81,7 @@
 					'Azure APIM'
 				]}
 				jobParagraph="At Kai Shing, I eliminated manual workflows for building operations and improving tenant experience by creating dashboards, adding features and data pipelines to expose more data for business analytics & logistics."
+				jobBulletPoints={[]}
 			/>
 		</div>
 	</article>
@@ -87,104 +95,32 @@
 				following courses:
 			</p>
 			<div class="!mt-8 paragraph mx-8">
-				<div class="flex gap-x-3">
-					<div class="w-16 text-end">
-						<span class="text-xs text-gray-500 dark:text-gray-400">2023W2</span>
-					</div>
-
-					<div
-						class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700"
-					>
-						<div class="relative z-10 size-7 flex justify-center items-center">
-							<div class="size-2 rounded-full bg-gray-400 dark:bg-gray-600"></div>
-						</div>
-					</div>
-
-					<div class="grow pt-0.5 pb-8">
-						<h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
-							CPSC 313: Computer Hardware and Operating Systems
-						</h3>
-						<p class="mt-1 text-lg text-gray-600 dark:text-gray-400">
-							Instruction sets, pipelining, code optimization, caching, virtual memory management,
-							dynamically linked libraries, exception processing, execution time of programs.
-						</p>
-						<p class="mt-4 font-bold text-xl text-gray-600 dark:text-gray-400">Duties:</p>
-						<div class="ml-12 mt-1 text-lg text-gray-600 dark:text-gray-400">
-							<li>
-								Hosted office hours and tutorials to guide students through problems, answer student
-								questions, aiding students to understanding course concepts and its relevance to
-								real life applications.
-							</li>
-							<li>
-								Created practice and exam problems to examine student understanding of concepts
-								PrarieLearn with Python.
-							</li>
-						</div>
-					</div>
-				</div>
-				<div class="flex gap-x-3">
-					<div class="w-16 text-end">
-						<span class="text-xs text-gray-500 dark:text-gray-400">2022W1</span>
-					</div>
-
-					<div
-						class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700"
-					>
-						<div class="relative z-10 size-7 flex justify-center items-center">
-							<div class="size-2 rounded-full bg-gray-400 dark:bg-gray-600"></div>
-						</div>
-					</div>
-
-					<div class="grow pt-0.5 pb-8">
-						<h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
-							CPSC 213: Introduction to Computer Systems
-						</h3>
-						<p class="mt-1 text-lg text-gray-600 dark:text-gray-400">
-							Software architecture, operating systems, and I/O architectures. Relationships between
-							application software, operating systems, and computing hardware; critical sections,
-							deadlock avoidance, and performance; principles and operation of disks and networks.
-						</p>
-						<p class="mt-4 font-bold text-xl text-gray-600 dark:text-gray-400">Duties:</p>
-						<div class="ml-12 mt-1 text-lg text-gray-600 dark:text-gray-400">
-							<li>
-								Hosted office hours and tutorials to guide students through problems, answer student
-								questions, and guided students to debug their multithreaded code in C.
-							</li>
-						</div>
-					</div>
-				</div>
-				<div class="flex gap-x-3">
-					<div class="w-16 text-end">
-						<span class="text-xs text-gray-500 dark:text-gray-400">2021W1</span>
-					</div>
-
-					<div
-						class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700"
-					>
-						<div class="relative z-10 size-7 flex justify-center items-center">
-							<div class="size-2 rounded-full bg-gray-400 dark:bg-gray-600"></div>
-						</div>
-					</div>
-
-					<div class="grow pt-0.5 pb-8">
-						<h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
-							CPSC 121: Models of Computation
-						</h3>
-						<p class="mt-1 text-lg text-gray-600 dark:text-gray-400">
-							Physical and mathematical structures of computation. Boolean algebra and combinations
-							logic circuits; proof techniques; functions and sequential circuits; sets and
-							relations; finite state machines; sequential instruction execution.
-						</p>
-						<p class="mt-4 font-bold text-xl text-gray-600 dark:text-gray-400">Duties:</p>
-						<div class="ml-12 mt-1 text-lg text-gray-600 dark:text-gray-400">
-							<li>
-								Hosted office hours, tutorials and labs to guide students through problems, answer
-								student questions.
-							</li>
-							<li>Helped students debug their circuits on breadboards during labs.</li>
-						</div>
-					</div>
-				</div>
+				<TimelineItem
+					courseDate="2023W2"
+					courseName="CPSC 313: Computer Hardware and Operating Systems"
+					courseContent="Instruction sets, pipelining, code optimization, caching, virtual memory management, dynamically linked libraries, exception processing, execution time of programs."
+					courseBulletPoints={[
+						'Hosted office hours and tutorials to guide students through problems, answer student questions, aiding students to understanding course concepts and its relevance to real life applications.',
+						'Created practice and exam problems to examine student understanding of concepts PrarieLearn with Python.'
+					]}
+				/>
+				<TimelineItem
+					courseDate="2022W1"
+					courseName="CPSC 213: Introduction to Computer Systems"
+					courseContent="Software architecture, operating systems, and I/O architectures. Relationships between application software, operating systems, and computing hardware; critical sections, deadlock avoidance, and performance; principles and operation of disks and networks."
+					courseBulletPoints={[
+						'Hosted office hours and tutorials to guide students through problems, answer student questions, and guided students to debug their multithreaded code in C.'
+					]}
+				/>
+				<TimelineItem
+					courseDate="2021W1"
+					courseName="CPSC 121: Models of Computation"
+					courseContent="Physical and mathematical structures of computation. Boolean algebra and combinations logic circuits; proof techniques; functions and sequential circuits; sets and relations; finite state machines; sequential instruction execution."
+					courseBulletPoints={[
+						'Hosted office hours, tutorials and labs to guide students through problems, and answered student questions.',
+						'Helped students debug their circuits on breadboards during labs.'
+					]}
+				/>
 			</div>
 		</div>
 	</article>

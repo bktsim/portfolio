@@ -1,10 +1,11 @@
 <script>
 	import Navbar from '$lib/components/navbar.svelte';
+	import Footer from '$lib/components/footer.svelte';
 </script>
 
 <Navbar page="index" />
 
-<div class="mt-14 md:mt-20 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="mt-14 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 flex">
 	<div class="m-8">
 		<div class="flex flex-col sm:flex-row justify-center min-h-[85vh] sm:min-h-[30vh]">
 			<div class="flex flex-col justify-center">
@@ -95,3 +96,5 @@
 		</article> -->
 	</div>
 </div>
+
+<Footer />

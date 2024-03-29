@@ -8,7 +8,7 @@
 		name: 'brendon',
 		about: 'about',
 		projects: 'projects',
-		experience: 'work experience',
+		experience: 'dev experience',
 		hobbies: 'hobbies'
 	};
 </script>

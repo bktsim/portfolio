@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import Badge from '$lib/components/badge.svelte';
 
 	/**
@@ -44,7 +45,7 @@
 	>
 		<div class="flex flex-row p-2 grow">
 			<div class="flex flex-col justify-center mr-5">
-				<img src="/company/{key}.png" class="flex w-12" alt="{key} logo" />
+				<img src="{base}/company/{key}.png" class="flex w-12" alt="{key} logo" />
 			</div>
 			<div class="flex flex-col text-left sm:justify-center sm:items-start">
 				<h4 class="job-title">

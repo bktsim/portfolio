@@ -3,7 +3,7 @@
 	 * @type {string}
 	 */
 	export let page;
-
+	import { base } from '$app/paths';
 	const text = {
 		name: 'brendon',
 		about: 'about',
@@ -20,12 +20,14 @@
 		class="mt-6 relative max-w-[85rem] w-full bg-white border border-gray-200 rounded-[36px] mx-2 py-3 px-4 md:flex md:flex-row md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto dark:bg-gray-800 dark:border-gray-700"
 		aria-label="Global"
 	>
-		<a class="grow hidden md:inline-flex min-w-fit name pl-2" href="/" aria-label="Brand"
+		<a class="grow hidden md:inline-flex min-w-fit name pl-2" href="{base}/" aria-label="Brand"
 			>{text.name}</a
 		>
 		<div>
 			<div class="md:hidden flex items-center justify-between">
-				<a class="inline-flex grow flex-row pl-2 name" href="/" aria-label="Brand">{text.name}</a>
+				<a class="inline-flex grow flex-row pl-2 name" href="{base}/" aria-label="Brand"
+					>{text.name}</a
+				>
 				<button
 					type="button"
 					class="self-end hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
@@ -77,28 +79,28 @@
 					class:selected={page === 'index'}
 					class:unselected={page !== 'index'}
 					class="links"
-					href="/"
+					href="{base}/"
 					aria-current="page">{text.about}</a
 				>
 				<a
 					class="links"
 					class:selected={page === 'experience'}
 					class:unselected={page !== 'experience'}
-					href="/experience"
+					href="{base}/experience"
 					aria-current="page">{text.experience}</a
 				>
 				<a
 					class="links"
 					class:selected={page === 'projects'}
 					class:unselected={page !== 'projects'}
-					href="/"
+					href="{base}/"
 					aria-current="page">{text.projects}</a
 				>
 				<a
 					class="links"
 					class:selected={page === 'fun'}
 					class:unselected={page !== 'fun'}
-					href="/"
+					href="{base}/"
 					aria-current="page">{text.hobbies}</a
 				>
 				<!-- <a

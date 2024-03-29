@@ -5,7 +5,7 @@
 		<div class="space-x-4">
 			<a
 				class="hs-tooltip inline-flex justify-center items-center size-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
-				href="#"
+				href="mailto:contact@brendontsim.com?subject=From brendontsim.com | [YOUR SUBJECT HERE]"
 			>
 				<svg
 					class="flex-shrink-0 size-3.5"
@@ -44,7 +44,8 @@
 			</a>
 			<a
 				class="hs-tooltip inline-flex justify-center items-center size-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
-				href="#"
+				href="https://github.com/bktsim"
+				target="_blank"
 			>
 				<svg
 					class="flex-shrink-0 size-3.5"
@@ -67,7 +68,8 @@
 			</a>
 			<a
 				class="hs-tooltip inline-flex justify-center items-center size-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
-				href="#"
+				href="https://www.linkedin.com/in/brendontsim/"
+				target="_blank"
 			>
 				<svg
 					class="flex-shrink-0 size-3.5"

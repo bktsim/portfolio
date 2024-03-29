@@ -198,8 +198,8 @@
 </div>
 <Footer />
 
-<style>
+<!-- <style>
 	* li {
 		@apply indent-[-1.4em] text-left;
 	}
-</style>
+</style> -->

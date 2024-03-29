@@ -1,4 +1,4 @@
-<footer class="w-full py-3 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-100 mt-14">
+<footer class="flex justify-center w-full py-3 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-100 mt-14">
 	<!-- Grid -->
 	<div class="text-center">
 		<!-- Social Brands -->

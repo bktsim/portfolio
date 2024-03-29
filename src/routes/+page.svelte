@@ -40,8 +40,8 @@
 					<p class="paragraph">
 						In my free time, you can catch me playing the guitar, window shopping keyboards that I
 						really shouldn't get, learning Japanese (i.e. watching VTubers) and playing video games
-						- especially FPS and Rhythm games (maimai!). I chose to study computer science because I
-						basically live on the internet. It's as if I'm in sorcery school.
+						- especially FPS and Rhythm games (maimai!). As you can tell from my hobbies, I like
+						being on the internet.
 					</p>
 					<p class="paragraph">
 						I'm on the lookout for cool projects that are related to my interests and full-time

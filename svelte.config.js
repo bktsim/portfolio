@@ -18,7 +18,7 @@ const config = {
 			precompress: false,
 		}),
 		paths: {
-			base: process.env.NODE_ENV === "production" ? "/bktsim.github.io" : "",
+			base: "",
 		},
 		// prerender: {
 		// 	entries: [],

@@ -6,13 +6,23 @@
 
 <div class="mt-14 md:mt-20 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
 	<div class="m-8">
-		<div class="flex justify-center min-h-[41vh]">
+		<div class="flex flex-col sm:flex-row justify-center min-h-[85vh] sm:min-h-[30vh]">
 			<div class="flex flex-col justify-center">
-				<h1 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl inline-flex">(´• ω •`)ﾉ</h1>
+				<h1
+					class="text-5xl text-center justify-center sm:justify-start sm:text-left sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl inline-flex"
+				>
+					(´• ω •`)ﾉ
+				</h1>
 			</div>
-			<div class="flex flex-col justify-center ml-6 md:ml-14">
-				<h1 class="text-5xl md:text-6xl xl:text-8xl dark:text-white font-bold">brendon tsim</h1>
-				<h3 class="text-3xl md:text-4xl xl:text-5xl dark:text-white font-medium mt-2">
+			<div class="flex flex-col justify-center ml-2 sm:ml-6 md:ml-14 mt-4 sm:mt-0">
+				<h1
+					class="text-3xl text-center justify-center sm:justify-start sm:text-left sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl dark:text-white font-bold"
+				>
+					brendon tsim
+				</h1>
+				<h3
+					class="text-2xl text-center justify-center sm:justify-start sm:text-left sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl dark:text-white font-medium sm:mt-2"
+				>
 					software developer
 				</h3>
 			</div>
@@ -22,8 +32,9 @@
 				<h4 class="title">about</h4>
 				<div class="paragraph-container">
 					<p class="paragraph">
-						Hey there! I'm Brendon, a software developer and a 4th year undergraduate student at The
-						University of British Columbia in Vancouver, Canada majoring in Computer Science.
+						Hey there! I'm Brendon. I'm a software developer with working experience across the
+						stack (full stack, web, embedded, IoT, game dev), and a 4th year undergraduate student
+						at The University of British Columbia in Vancouver, Canada majoring in Computer Science.
 					</p>
 					<p class="paragraph">
 						In my free time, you can catch me playing the guitar, window shopping keyboards that I
@@ -46,7 +57,7 @@
 				</div>
 			</div>
 
-			<div class="section">
+			<!-- <div class="section">
 				<h4 class="title">computer science</h4>
 				<div class="paragraph-container">
 					<p class="paragraph">
@@ -61,9 +72,9 @@
 						and information retrieval related applications), and Computer Vision.
 					</p>
 				</div>
-			</div>
+			</div> -->
 		</article>
-		<hr class="section-divider" />
+		<!-- <hr class="section-divider" />
 		<article class="mt-8">
 			<div class="section">
 				<h4 class="title">work experience</h4>
@@ -81,38 +92,6 @@
 					</p>
 				</div>
 			</div>
-		</article>
+		</article> -->
 	</div>
 </div>
-
-<style>
-	.title {
-		@apply text-6xl;
-		@apply font-light;
-		@apply mt-14;
-		@apply md:mt-9;
-	}
-
-	.paragraph {
-		@apply text-2xl;
-		@apply text-justify;
-		@apply mt-5;
-	}
-
-	.section-divider {
-		/* @apply border-2; */
-		@apply mt-16;
-		@apply md:mt-12;
-		@apply md:mb-5;
-		@apply mx-8;
-	}
-
-	.paragraph-container {
-		@apply ml-4;
-		@apply mt-6;
-	}
-
-	.section {
-		@apply my-24;
-	}
-</style>

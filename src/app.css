@@ -5,3 +5,33 @@
 html {
     @apply bg-slate-50
 }
+
+.title {
+    @apply text-6xl;
+    @apply font-light;
+    @apply mt-14;
+    @apply md:mt-9;
+}
+
+.paragraph {
+    @apply text-2xl;
+    @apply text-justify;
+    @apply mt-5;
+}
+
+.section-divider {
+    /* @apply border-2; */
+    @apply mt-16;
+    @apply md:mt-12;
+    @apply md:mb-5;
+    @apply mx-8;
+}
+
+.paragraph-container {
+    @apply ml-4;
+    @apply mt-6;
+}
+
+.section {
+    @apply my-24;
+}

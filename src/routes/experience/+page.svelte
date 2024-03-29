@@ -24,7 +24,7 @@
 			<p class="paragraph">
 				I have extensive experience with languages like C, TypeScript, Python and Lua - but
 				honestly, it doesn't really matter. I am a strong believer that developers should pick tools
-				based on the task, and not the other way around: I am confident in picking up any other
+				based on the task, and not the other way around. I am confident in picking up any other
 				language and framework that is best suited for any task I tackle.
 			</p>
 		</div>

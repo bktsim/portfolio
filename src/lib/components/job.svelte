@@ -36,7 +36,7 @@
 	export let jobBulletPoints;
 </script>
 
-<div class="mt-5 mr-10">
+<div class="mt-5 sm:mr-10">
 	<button
 		type="button"
 		class="border-1 border-black/5 hs-collapse-open:shadow-lg hs-collapse-open:shadow-neutral-300/50 hs-collapse-toggle py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border hover:bg-neutral-200 Wdisabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 w-full"

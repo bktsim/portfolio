@@ -29,7 +29,7 @@ html {
 }
 
 .paragraph-container {
-    @apply ml-4;
+    @apply sm:ml-4;
     @apply mt-6;
 }
 

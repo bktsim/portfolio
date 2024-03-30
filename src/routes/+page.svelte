@@ -17,12 +17,12 @@
 			</div>
 			<div class="flex flex-col justify-center ml-2 sm:ml-6 md:ml-14 mt-4 sm:mt-0">
 				<h1
-					class="text-3xl text-center justify-center sm:justify-start sm:text-left sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl dark:text-white font-bold"
+					class="text-3xl text-center justify-center sm:justify-start sm:text-left sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl font-bold"
 				>
 					brendon tsim
 				</h1>
 				<h3
-					class="text-2xl text-center justify-center sm:justify-start sm:text-left sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl dark:text-white font-medium sm:mt-2"
+					class="text-2xl text-center justify-center sm:justify-start sm:text-left sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-medium sm:mt-2"
 				>
 					software developer
 				</h3>

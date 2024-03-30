@@ -17,26 +17,26 @@
 
 <style>
 	.dark {
-		@apply bg-gray-100 text-gray-800 dark:bg-white/10 dark:text-white;
+		@apply bg-gray-100 text-gray-800;
 	}
 
 	.gray {
-		@apply bg-gray-50 text-gray-500 dark:bg-white/[.05] dark:text-white;
+		@apply bg-gray-50 text-gray-500;
 	}
 
 	.green {
-		@apply bg-teal-100 text-teal-800 dark:bg-teal-800/30 dark:text-teal-500;
+		@apply bg-teal-100 text-teal-800;
 	}
 
 	.blue {
-		@apply bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500;
+		@apply bg-blue-100 text-blue-800;
 	}
 
 	.red {
-		@apply bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500;
+		@apply bg-red-100 text-red-800;
 	}
 
 	.yellow {
-		@apply bg-yellow-100 text-yellow-800 dark:bg-yellow-800/30 dark:text-yellow-500;
+		@apply bg-yellow-100 text-yellow-800;
 	}
 </style>

@@ -10,8 +10,9 @@
 </script>
 
 <span
-	class="flex items-center gap-x-1.5 py-1.5 px-3 mx-2 my-2 rounded-full text-sm font-medium {color ??
-		'dark'} border-black/15 border-[1px]">{content}</span
+	class="flex items-center gap-x-1.5 py-1.5 px-3 mx-2 my-2 rounded-full text-sm font-medium {color
+		? color
+		: 'dark'} border-black/15 border-[1px]">{content}</span
 >
 
 <style>

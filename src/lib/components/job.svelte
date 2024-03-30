@@ -89,7 +89,7 @@
 			</div>
 			<div class="justify-center sm:justify-end flex flex-row pt-5 flex-wrap">
 				{#each jobTags as tag}
-					<Badge color="green" content={tag} />
+					<Badge color="gray" content={tag} />
 				{/each}
 			</div>
 		</div>

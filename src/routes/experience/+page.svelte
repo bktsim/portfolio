@@ -32,7 +32,7 @@
 				<a href="{base}/projects" class="link">projects</a> tab. Here's the names of a bunch of courses
 				that I have taken to give you a rough idea of my academic background.
 			</p>
-			<div class="justify-center flex flex-row flex-wrap mt-4 bg-blue-200/15 p-5 rounded-lg">
+			<div class="justify-center flex flex-row flex-wrap mt-4 bg-slate-100 p-5 rounded-lg">
 				<Badge color="dark" content="Software Engineering" />
 				<Badge color="dark" content="Advanced Data Structures & Algorithms" />
 				<Badge color="dark" content="Computer Hardware & Operating Systems" />
@@ -135,8 +135,8 @@
 		<p class="paragraph">
 			A brief summary of the technologies, frameworks and technologies that I am familiar with:
 		</p>
-		<div class="align-left justify-start rounded py-4 bg-slate-50">
-			<div class="bg-slate-200/15 rounded-lg py-4 px-8">
+		<div class="align-left justify-start rounded py-4">
+			<div class="bg-slate-100 rounded-lg py-4 px-8">
 				<div class="flex flex-row flex-wrap">
 					<Badge color="green" content="C" />
 					<Badge color="green" content="C++" />

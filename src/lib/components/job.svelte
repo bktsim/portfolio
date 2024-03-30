@@ -47,7 +47,9 @@
 			<div class="flex flex-col justify-center mr-5">
 				<img src="{base}/company/{key}.png" class="flex w-12" alt="{key} logo" />
 			</div>
-			<div class="flex flex-col text-left sm:justify-center sm:items-start">
+			<div
+				class="flex flex-col sm:justify-center sm:items-start paragraph !mt-0 justify-normal !text-left"
+			>
 				<h4 class="job-title">
 					{companyName},
 					<br class="visible sm:hidden" />
@@ -75,16 +77,16 @@
 		aria-labelledby={key}
 	>
 		<div class="mt-5 mx-6 bg-slate-100 p-5 px-8 rounded-lg">
-			<p class="job-paragraph">
+			<p class="paragraph">
 				{jobParagraph}
 			</p>
 
 			<p class="mt-7 mb-3 font-light text-2xl sm:text-3xl text-gray-600">main contributions:</p>
-			<div class="ml-12 mt-1 text-base sm:text-lg">
+			<ul class="paragraph ml-12 mt-1">
 				{#each jobBulletPoints as bulletPoint}
 					<li class="my-1">{bulletPoint}</li>
 				{/each}
-			</div>
+			</ul>
 			<div class="justify-center sm:justify-end flex flex-row pt-5 flex-wrap">
 				{#each jobTags as tag}
 					<Badge color="gray" content={tag} />
@@ -93,19 +95,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	.job-title {
-		@apply font-normal;
-		@apply text-base;
-		@apply md:text-2xl;
-		@apply lg:text-3xl;
-	}
-
-	.job-paragraph {
-		@apply text-base;
-		@apply sm:text-lg;
-		@apply text-justify;
-		@apply mt-5;
-	}
-</style>

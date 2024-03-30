@@ -31,17 +31,17 @@
 	</div>
 
 	<div class="grow pt-0.5 pb-8">
-		<h3 class="flex gap-x-1.5 font-normal text-2xl lg:text-3xl text-gray-800">
+		<h3 class="flex gap-x-1.5 font-normal text-xl lg:text-3xl text-gray-800">
 			{courseName}
 		</h3>
-		<p class="mt-2 text-base sm:text-lg text-gray-600">
+		<p class="mt-2 text-base sm:text-md text-gray-600">
 			{courseContent}
 		</p>
 		<p class="mt-4 font-base text-2xl text-gray-600">main duties:</p>
-		<div class="ml-12 mt-1 text-base sm:text-lg text-gray-600">
+		<ul class="ml-12 mt-1 text-base sm:text-md text-gray-600">
 			{#each courseBulletPoints as bulletPoint}
 				<li>{bulletPoint}</li>
 			{/each}
-		</div>
+		</ul>
 	</div>
 </div>

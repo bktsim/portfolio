@@ -7,17 +7,30 @@ html {
     overflow-y: scroll;
 }
 
+ul {
+    display: list-item;
+    list-style-position: outside;
+    list-style-type: disc;
+}
+
+.top {
+    @apply mt-14 max-w-[85rem] mx-auto flex flex-col grow mb-14 m-8;
+}
+
 .title {
-    @apply text-4xl;
-    @apply sm:text-6xl;
-    @apply font-light;
+    @apply text-3xl;
+    @apply sm:text-5xl;
+    @apply lg:text-6xl;
+    @apply font-semibold;
     @apply mt-14;
     @apply md:mt-9;
 }
 
 .paragraph {
     @apply text-base;
-    @apply sm:text-2xl;
+    /* @apply sm:text-base; */
+    @apply md:text-lg;
+    @apply lg:text-xl;
     @apply text-justify;
     @apply mt-5;
 }
@@ -31,13 +44,15 @@ html {
 }
 
 .paragraph-container {
-    @apply sm:ml-4;
     @apply mt-6;
 }
 
 .section {
-    @apply mx-4;
-    @apply sm:mx-0;
+    @apply mx-auto;
+    @apply px-8;
+    @apply sm:px-20;
+    @apply md:px-40;
+    @apply lg:px-52;
     @apply my-24;
 }
 
@@ -46,6 +61,3 @@ html {
     @apply font-bold underline text-blue-500;
 }
 
-ul {
-    list-style-position: outside;
-}

@@ -1,7 +1,6 @@
 <script lang="ts">
 	export let page: string;
 	import { base } from '$app/paths';
-	import { getContext, onMount, setContext } from 'svelte';
 	const text = {
 		name: 'brendon',
 		about: 'about',
@@ -53,53 +52,52 @@
 		<a class="grow hidden md:inline-flex min-w-fit name pl-2" href="{base}/" aria-label="Brand"
 			>{text.name} {current_kaomoji}</a
 		>
-		<div>
-			<div class="md:hidden flex items-center justify-between">
-				<a class="inline-flex grow flex-row pl-2 name" href="{base}/" aria-label="Brand"
-					>{text.name} {current_kaomoji}</a
+
+		<div class="md:hidden flex items-center justify-between">
+			<a class="inline-flex grow flex-row pl-2 name" href="{base}/" aria-label="Brand"
+				>{text.name} {current_kaomoji}</a
+			>
+			<button
+				type="button"
+				class="hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full self-end border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+				data-hs-collapse="#navbar-collapse-with-animation-{page}"
+				aria-controls="navbar-collapse-with-animation-{page}"
+				aria-label="Toggle navigation"
+			>
+				<svg
+					class="hs-collapse-open:hidden flex-shrink-0 size-4"
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					><line x1="3" x2="21" y1="6" y2="6" /><line x1="3" x2="21" y1="12" y2="12" /><line
+						x1="3"
+						x2="21"
+						y1="18"
+						y2="18"
+					/></svg
 				>
-				<button
-					type="button"
-					class="self-end hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
-					data-hs-collapse="#navbar-collapse-with-animation"
-					aria-controls="navbar-collapse-with-animation"
-					aria-label="Toggle navigation"
+				<svg
+					class="hs-collapse-open:block hidden flex-shrink-0 size-4"
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg
 				>
-					<svg
-						class="hs-collapse-open:hidden flex-shrink-0 size-4"
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						><line x1="3" x2="21" y1="6" y2="6" /><line x1="3" x2="21" y1="12" y2="12" /><line
-							x1="3"
-							x2="21"
-							y1="18"
-							y2="18"
-						/></svg
-					>
-					<svg
-						class="hs-collapse-open:block hidden flex-shrink-0 size-4"
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						stroke-linecap="round"
-						stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg
-					>
-				</button>
-			</div>
+			</button>
 		</div>
 		<div
-			id="navbar-collapse-with-animation"
+			id="navbar-collapse-with-animation-{page}"
 			class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
 		>
 			<div

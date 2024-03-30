@@ -41,3 +41,7 @@ html {
 .link {
     @apply font-bold underline text-blue-500;
 }
+
+ul {
+    list-style-position: outside;
+}

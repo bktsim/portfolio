@@ -28,7 +28,7 @@
 				</h3>
 			</div>
 		</div>
-		<article class="md:m-18 md:mt-20">
+		<article class="md:m-28 md:mt-20">
 			<div>
 				<h4 class="title">about</h4>
 				<div class="paragraph-container">

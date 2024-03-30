@@ -8,14 +8,16 @@ html {
 }
 
 .title {
-    @apply text-6xl;
+    @apply text-4xl;
+    @apply sm:text-6xl;
     @apply font-light;
     @apply mt-14;
     @apply md:mt-9;
 }
 
 .paragraph {
-    @apply text-2xl;
+    @apply text-base;
+    @apply sm:text-2xl;
     @apply text-justify;
     @apply mt-5;
 }

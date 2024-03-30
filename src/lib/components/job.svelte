@@ -79,10 +79,10 @@
 				{jobParagraph}
 			</p>
 
-			<p class="mt-7 mb-3 font-light text-3xl text-gray-600">main contributions:</p>
-			<div class="ml-12 mt-1 text-lg">
+			<p class="mt-7 mb-3 font-light text-2xl sm:text-3xl text-gray-600">main contributions:</p>
+			<div class="ml-12 mt-1 text-base sm:text-lg">
 				{#each jobBulletPoints as bulletPoint}
-					<li>{bulletPoint}</li>
+					<li class="my-1">{bulletPoint}</li>
 				{/each}
 			</div>
 			<div class="justify-center sm:justify-end flex flex-row pt-5 flex-wrap">
@@ -103,7 +103,8 @@
 	}
 
 	.job-paragraph {
-		@apply text-lg;
+		@apply text-base;
+		@apply sm:text-lg;
 		@apply text-justify;
 		@apply mt-5;
 	}

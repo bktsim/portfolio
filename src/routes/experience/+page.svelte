@@ -9,7 +9,7 @@
 
 <Navbar page="experience" />
 
-<div class="mt-14 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col grow">
+<div class="mt-14 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col grow mb-14">
 	<article class="section">
 		<h4 class="title">academics</h4>
 		<div class="paragraph-container">
@@ -85,9 +85,25 @@
 				jobTitle="Software Engineer Intern"
 				jobDates="Jan 2022 - Aug 2022"
 				jobLocation="Vancouver, Canada"
-				jobTags={['TypeScript', 'C#', 'HTML', 'CSS', 'JavaScript', 'React', 'SQL']}
-				jobParagraph="At Alida, I created interactive and WCAG-compliant web-accessible components with React, TypeScript and Jest; Owned the architecture for migrating the frontend to a new backend API and worked on product features."
-				jobBulletPoints={[]}
+				jobTags={[
+					'TypeScript',
+					'Jest',
+					'Material-UI',
+					'C#',
+					'HTML',
+					'CSS',
+					'JavaScript',
+					'React',
+					'SQL'
+				]}
+				jobParagraph="At Alida, I contributed to rewriting the Surveys application to a microservice. This involved creating interactive and WCAG-compliant web-accessible components with React, Typescript and Jest, as well as owning the architecture for migrating the appliaction to new backend APIs."
+				jobBulletPoints={[
+					'Created web-accessible and interactive components for Surveys application with Typescript, React with unit tests in Jest.',
+					'Audited and added web-accessibility features throughout the Surveys application, improving user experience.',
+					'Reduced pipeline blocks by increasing unit test coverage and rewriting indeterministic unit tests for frontend components, increasing overall developer productivity and velocity.',
+					'Owned the architecture and design for the migration to a new backend API service, ensuring backwards compatibility and ease of switch with modular code.',
+					'Worked with other teams to faciliate weekly pushes of application updates to production using GoCD.'
+				]}
 			/>
 			<Job
 				key="kaishing"
@@ -108,8 +124,57 @@
 					'Azure APIM'
 				]}
 				jobParagraph="At Kai Shing, I eliminated manual workflows for building operations and improving tenant experience by creating dashboards, adding features and data pipelines to expose more data for business analytics & logistics."
-				jobBulletPoints={[]}
+				jobBulletPoints={[
+					'Eliminiated manual workflow that took 2-3 days by creating a dashboard, allowing staff to update restaurant statuses for mall operations without intervention of IT staff using Java, Spring Boot, JSP and SQL.',
+					'Handled processing & analysis of air-quality data from 25+ IoT devices with Java and SQL, automating maintenance requests.',
+					'Setup API endpoints in APIM with scripts in Liquid and C# to process data from other vendors, improving tenant experience.',
+					'Performed data analysis & created visualizations for stakeholders using Qlik Sense and SQL.'
+				]}
 			/>
+		</div>
+		<p class="paragraph">
+			A brief summary of the technologies, frameworks and technologies that I am familiar with:
+		</p>
+		<div class="align-left justify-start rounded py-4 bg-slate-50">
+			<div class="bg-slate-200/15 rounded-lg py-4 px-8">
+				<div class="flex flex-row flex-wrap">
+					<Badge color="green" content="C" />
+					<Badge color="green" content="C++" />
+					<Badge color="green" content="TypeScript" />
+					<Badge color="green" content="Java" />
+					<Badge color="green" content="Python" />
+					<Badge color="green" content="Go (Golang)" />
+					<Badge color="green" content="JavaScript" />
+					<Badge color="green" content="C#" />
+					<Badge color="green" content="SQL" />
+					<Badge color="green" content="HTML" />
+					<Badge color="green" content="CSS" />
+					<Badge color="green" content="Lua" />
+					<Badge color="green" content="Promela (SPIN)" />
+					<Badge color="green" content="CUDA" />
+					<Badge color="blue" content="React" />
+					<Badge color="blue" content="Next.js" />
+					<Badge color="blue" content="Spring MVC" />
+					<Badge color="blue" content="JUnit" />
+					<Badge color="blue" content="Jest" />
+					<Badge color="blue" content="Mocha" />
+					<Badge color="blue" content="Chai" />
+					<Badge color="blue" content="Flask" />
+					<Badge color="blue" content="JSP" />
+					<Badge color="blue" content="Struts" />
+					<Badge color="blue" content="Material UI" />
+					<Badge color="red" content="Git" />
+					<Badge color="red" content="Linux" />
+					<Badge color="red" content="Heroku" />
+					<Badge color="red" content="Google Apps Script" />
+					<Badge color="red" content="Qlik Sense" />
+					<Badge color="red" content="WCAG" />
+					<Badge color="red" content="REST" />
+					<Badge color="red" content="GraphQL" />
+					<Badge color="red" content="gRPC" />
+					<Badge color="red" content="git" />
+				</div>
+			</div>
 		</div>
 	</article>
 	<article class="section">

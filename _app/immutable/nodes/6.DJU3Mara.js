@@ -1,0 +1,1 @@
+import{b as r}from"../chunks/paths.B9gi6CuQ.js";import{R as t}from"../chunks/control.CYgJF_JY.js";function n(e,o){throw new t(e,o.toString())}new TextEncoder;function i(){n(302,`${r}/resume.pdf`)}const d=Object.freeze(Object.defineProperty({__proto__:null,load:i},Symbol.toStringTag,{value:"Module"}));export{d as universal};

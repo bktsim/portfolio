@@ -3,13 +3,15 @@
 	import Footer from '$lib/components/footer.svelte';
 	import TimelineItem from '$lib/components/timelineitem.svelte';
 	import Job from '$lib/components/job.svelte';
+	import { base } from '$app/paths';
+	import Badge from '$lib/components/badge.svelte';
 </script>
 
 <Navbar page="experience" />
 
 <div class="mt-14 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col grow">
 	<article class="section">
-		<h4 class="title">computer science</h4>
+		<h4 class="title">academics</h4>
 		<div class="paragraph-container">
 			<p class="paragraph">
 				In computer science, I'm most interested in distributed systems, parallel computing,
@@ -22,15 +24,40 @@
 				applications), and Computer Vision.
 			</p>
 			<p class="paragraph">
-				I have extensive experience with languages like C, TypeScript, Python and Lua - but
-				honestly, it doesn't really matter. I am a strong believer that developers should pick tools
-				based on the task, and not the other way around. I am confident in picking up any other
-				language and framework that is best suited for any task I tackle.
+				I have taken courses related to every single one of my computing interests listed above
+				either as an upper-year course at UBC, or as an upper-year/graduate level course during my
+				<!-- svelte-ignore a11y-missing-attribute -->
+				exchange at <a class="italic">Waseda University</a> in 2023. You can find some of the
+				'research' and academic projects that I have done related to these topics by my
+				<a href="{base}/projects" class="link">projects</a> tab. Here's the names of a bunch of courses
+				that I have taken to give you a rough idea of my academic background.
+			</p>
+			<div class="justify-center flex flex-row flex-wrap mt-4 bg-blue-200/15 p-5 rounded-lg">
+				<Badge color="dark" content="Software Engineering" />
+				<Badge color="dark" content="Advanced Data Structures & Algorithms" />
+				<Badge color="dark" content="Computer Hardware & Operating Systems" />
+				<Badge color="dark" content="Distributed Systems" />
+				<Badge color="dark" content="Parallel Computation" />
+				<Badge color="dark" content="Reliable Software" />
+				<Badge color="dark" content="Language Processors (Compilers)" />
+				<Badge color="dark" content="Computer Networking" />
+				<Badge color="dark" content="Machine Learning & Data Mining" />
+				<Badge color="dark" content="Computer Vision" />
+				<Badge color="dark" content="Natural Language Processing" />
+				<Badge color="dark" content="Foundations for Information Acesss Evaluation" />
+				<Badge color="dark" content="Advanced Image Information" />
+			</div>
+			<p class="paragraph">
+				In terms of development, I have extensive experience with languages like C, TypeScript,
+				Python and Lua and frameworks like React, Node.js, and more - but honestly, it doesn't
+				really matter to me. I am a strong believer that developers should pick tools based on the
+				task, and not the other way around. I am confident in picking up any other language and
+				framework that is best suited for any task I tackle.
 			</p>
 		</div>
 	</article>
 	<article class="section">
-		<h4 class="title">internship experience</h4>
+		<h4 class="title">work experience</h4>
 		<div class="paragraph-container">
 			<p class="paragraph">
 				I have extensive real life software development experience across various different
@@ -126,9 +153,28 @@
 	</article>
 
 	<article class="section">
-		<h4 class="title">freelance work experience</h4>
+		<h4 class="title">freelance work</h4>
 		<div class="paragraph-container">
-			<p class="paragraph">i do game dev and get paid for doing it. wip</p>
+			<p class="paragraph">
+				I do ROBLOX game development and freelance web development on the side and get paid for it.
+			</p>
+			<p class="paragraph">
+				For web development, I made <a href="https://www.hashbot.io/" class="link" target="_blank"
+					>hashbot.io</a
+				>, a website that advertises a Discord bot targeted at the Web3 community that stops spam
+				and impersonation, monitoring over 10M+ users in real time.
+			</p>
+			<p class="paragraph">
+				I also do game development, localization (Chinese-English) and graphics for ROBLOX games.
+				I've made fully fleshed out clicker games from scratch (Homework Simulator) myself, and I've
+				also worked in various game studios, including game studios with games that have over 3M+
+				unique plays. In the future, I plan to consolidate and list my work here instead - but for
+				now, you can see my past work at my old google site <a
+					href="https://roblox.brendontsim.com/"
+					target="_blank"
+					class="link">here</a
+				>.
+			</p>
 		</div>
 	</article>
 </div>

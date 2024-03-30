@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html {
-    @apply bg-slate-50
+    @apply bg-slate-50;
+    overflow-y: scroll;
 }
 
 .title {
@@ -36,6 +37,7 @@ html {
     @apply my-24;
 }
 
-html {
-    overflow-y: scroll;
+
+.link {
+    @apply font-bold underline text-blue-500;
 }

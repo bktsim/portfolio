@@ -52,7 +52,7 @@
 						If you'd like to get in touch for academic/career opportunities, projects, or if you'd
 						just like to chat, please dont hesitate to reach out through my <a
 							href="mailto:contact@brendontsim.com?subject=From brendontsim.com | [YOUR SUBJECT HERE]"
-							class="font-bold text-blue-500 underline">email</a
+							class="link">email</a
 						>!
 					</p>
 				</div>

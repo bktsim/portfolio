@@ -1,9 +1,7 @@
-<script>
-	/**
-	 * @type {string}
-	 */
-	export let page;
+<script lang="ts">
+	export let page: string;
 	import { base } from '$app/paths';
+	import { getContext, onMount, setContext } from 'svelte';
 	const text = {
 		name: 'brendon',
 		about: 'about',
@@ -11,6 +9,38 @@
 		experience: 'dev experience',
 		hobbies: 'hobbies'
 	};
+
+	/**
+	 * @type {string[]}
+	 */
+	const kaomojis = [
+		'(* ^ ω ^)',
+		'ヽ(*・ω・)ﾉ',
+		'(＾＾＃)',
+		'( ╥ω╥ )',
+		'(・_・;)',
+		'(*・ω・)ﾉ',
+		'( ´ ▽ ` )/',
+		'(￣▽￣)/',
+		'|･ω･)',
+		'(￣^￣)ゞ',
+		'_(:3 」∠)_	'
+	];
+
+	const random_kaomoji = () => kaomojis[Math.floor(Math.random() * kaomojis.length)];
+
+	let current_kaomoji: string | undefined;
+
+	function kaomoji_set() {
+		let new_kaomoji = random_kaomoji();
+		while (new_kaomoji === current_kaomoji) {
+			new_kaomoji = random_kaomoji();
+		}
+		current_kaomoji = new_kaomoji;
+		setTimeout(kaomoji_set, 5000);
+	}
+
+	kaomoji_set();
 </script>
 
 <header
@@ -21,12 +51,12 @@
 		aria-label="Global"
 	>
 		<a class="grow hidden md:inline-flex min-w-fit name pl-2" href="{base}/" aria-label="Brand"
-			>{text.name}</a
+			>{text.name} {current_kaomoji}</a
 		>
 		<div>
 			<div class="md:hidden flex items-center justify-between">
 				<a class="inline-flex grow flex-row pl-2 name" href="{base}/" aria-label="Brand"
-					>{text.name}</a
+					>{text.name} {current_kaomoji}</a
 				>
 				<button
 					type="button"

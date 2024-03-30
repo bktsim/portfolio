@@ -34,8 +34,8 @@ html {
 }
 
 .section {
-    @apply px-8;
-    @apply sm:px-0;
+    @apply mx-4;
+    @apply sm:mx-0;
     @apply my-24;
 }
 

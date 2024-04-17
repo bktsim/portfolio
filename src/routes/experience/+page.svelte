@@ -15,7 +15,7 @@
 		<div class="paragraph-container">
 			<p class="paragraph">
 				In computer science, I'm most interested in distributed systems, parallel computing,
-				computer networks and machine learning. My interests stems from my habit of watching live
+				computer networks and machine learning. My interest stems from my habit of watching live
 				streams. I love watching streams live, and I want to improve this experience for everyone.
 			</p>
 			<p class="paragraph">
@@ -51,7 +51,7 @@
 				In terms of development, I have extensive experience with languages like C, TypeScript,
 				Python and Lua and frameworks like React, Node.js, and more - but honestly, it doesn't
 				really matter to me. I am a strong believer that developers should pick tools based on the
-				task, and not the other way around. I am confident in picking up any other language and
+				task and not the other way around. I am confident in picking up any other language and
 				framework that is best suited for any task I tackle.
 			</p>
 		</div>
@@ -73,10 +73,10 @@
 				jobTags={['C++', 'Python', 'Redis', 'Linux', 'SQL', 'Computer Networking']}
 				jobParagraph="At Arista Networks, I worked on adding support for multi-asic devices, new tests & test infrastructure based on prior customer escalations, and prototypes of new features for SONiC, an open-source network operating system (NOS)."
 				jobBulletPoints={[
-					'Extended CLI configuration support for multi-asic devices with Python (and reading lots of high level design documents), enabling users to easily configure features and logging the same way they can with single-asic devices.',
+					'Extended CLI configuration support for multi-asic devices with Python (and reading lots of high-level design documents), enabling users to easily configure features and logs the same way they can with single-asic devices.',
 					'Prototyped drop counter monitoring in C++, enabling users to configure rules and receive alerts, increasing network observability.',
-					'Expanded test-suite for QoS features to include IPv6 based on problems discovered in customer escalation, preventing further regressions.',
-					'Debugged and fixed bugs in configuration-related features by capturing packets using tcpdump and tracing source of errors.'
+					'Expanded test suite for QoS features to include IPv6 based on problems discovered in customer escalation, preventing further regressions.',
+					'Debugged and fixed bugs in configuration-related features by capturing packets using tcpdump and tracing the source of errors.'
 				]}
 			/>
 			<Job
@@ -96,13 +96,13 @@
 					'React',
 					'SQL'
 				]}
-				jobParagraph="At Alida, I contributed to rewriting the Surveys application to a microservice. This involved creating interactive and WCAG-compliant web-accessible components with React, Typescript and Jest, as well as owning the architecture for migrating the appliaction to new backend APIs."
+				jobParagraph="At Alida, I contributed to rewriting the Surveys application to a microservice. This involved creating interactive and WCAG-compliant web-accessible components with React, Typescript and Jest, as well as owning the architecture for migrating the application to new backend APIs."
 				jobBulletPoints={[
-					'Created web-accessible and interactive components for Surveys application with Typescript, React with unit tests in Jest.',
+					'Created web-accessible and interactive components for Surveys application with Typescript and React with unit tests in Jest.',
 					'Audited and added web-accessibility features throughout the Surveys application, improving user experience.',
 					'Reduced pipeline blocks by increasing unit test coverage and rewriting indeterministic unit tests for frontend components, increasing overall developer productivity and velocity.',
-					'Owned the architecture and design for the migration to a new backend API service, ensuring backwards compatibility and ease of switch with modular code.',
-					'Worked with other teams to faciliate weekly pushes of application updates to production using GoCD.'
+					'Owned the architecture and design for the migration to a new backend API service, ensuring backward compatibility and ease of switch with modular code.',
+					'Worked with other teams to facilitate weekly pushes of application updates to production using GoCD.'
 				]}
 			/>
 			<Job
@@ -123,11 +123,11 @@
 					'Qlik Sense',
 					'Azure APIM'
 				]}
-				jobParagraph="At Kai Shing, I eliminated manual workflows for building operations and improving tenant experience by creating dashboards, adding features and data pipelines to expose more data for business analytics & logistics."
+				jobParagraph="At Kai Shing, I eliminated manual workflows for building operations and improving tenant experience by creating dashboards, and adding features and data pipelines to expose more data for business analytics & logistics."
 				jobBulletPoints={[
-					'Eliminiated manual workflow that took 2-3 days by creating a dashboard, allowing staff to update restaurant statuses for mall operations without intervention of IT staff using Java, Spring Boot, JSP and SQL.',
+					'Eliminated manual workflow that took 2-3 days by creating a dashboard, allowing staff to update restaurant statuses for mall operations without the intervention of IT staff using Java, Spring Boot, JSP and SQL.',
 					'Handled processing & analysis of air-quality data from 25+ IoT devices with Java and SQL, automating maintenance requests.',
-					'Setup API endpoints in APIM with scripts in Liquid and C# to process data from other vendors, improving tenant experience.',
+					'Set up API endpoints in APIM with scripts in Liquid and C# to process data from other vendors, improving tenant experience.',
 					'Performed data analysis & created visualizations for stakeholders using Qlik Sense and SQL.'
 				]}
 			/>
@@ -172,7 +172,6 @@
 					<Badge color="red" content="REST" />
 					<Badge color="red" content="GraphQL" />
 					<Badge color="red" content="gRPC" />
-					<Badge color="red" content="git" />
 				</div>
 			</div>
 		</div>
@@ -192,7 +191,7 @@
 					courseName="CPSC 313: Computer Hardware and Operating Systems"
 					courseContent="Instruction sets, pipelining, code optimization, caching, virtual memory management, dynamically linked libraries, exception processing, execution time of programs."
 					courseBulletPoints={[
-						'Hosted office hours and tutorials to guide students through problems, answer student questions, aiding students to understanding course concepts and its relevance to real life applications.',
+						'Hosted office hours and tutorials to guide students through problems, answer student questions, aiding students in understanding course concepts and their relevance to real-life applications.',
 						'Created practice and exam problems to examine student understanding of concepts PrarieLearn with Python.'
 					]}
 				/>
@@ -201,7 +200,7 @@
 					courseName="CPSC 213: Introduction to Computer Systems"
 					courseContent="Software architecture, operating systems, and I/O architectures. Relationships between application software, operating systems, and computing hardware; critical sections, deadlock avoidance, and performance; principles and operation of disks and networks."
 					courseBulletPoints={[
-						'Hosted office hours and tutorials to guide students through problems, answer student questions, and guided students to debug their multithreaded code in C.'
+						'Hosted office hours and tutorials to guide students through problems, answer student questions, and guide students to debug their multithreaded code in C.'
 					]}
 				/>
 				<TimelineItem
@@ -226,14 +225,14 @@
 				For web development, I made <a href="https://www.hashbot.io/" class="link" target="_blank"
 					>hashbot.io</a
 				>, a website that advertises a Discord bot targeted at the Web3 community that stops spam
-				and impersonation, monitoring over 10M+ users in real time.
+				and impersonation, monitoring over 10M+ users in real-time.
 			</p>
 			<p class="paragraph">
 				I also do game development, localization (Chinese-English) and graphics for ROBLOX games.
-				I've made fully fleshed out clicker games from scratch (Homework Simulator) myself, and I've
+				I've made fully fleshed-out clicker games from scratch (Homework Simulator) myself, and I've
 				also worked in various game studios, including game studios with games that have over 3M+
 				unique plays. In the future, I plan to consolidate and list my work here instead - but for
-				now, you can see my past work at my old google site <a
+				now, you can see my past work at my old Google site <a
 					href="https://roblox.brendontsim.com/"
 					target="_blank"
 					class="link">here</a

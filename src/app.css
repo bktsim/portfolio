@@ -26,12 +26,63 @@ ul {
     @apply md:mt-9;
 }
 
+
+.smalltitle {
+    @apply text-xl;
+    @apply sm:text-3xl;
+    @apply lg:text-2xl;
+    @apply mt-14;
+    @apply font-semibold;
+}
+
+.smallsub {
+    @apply text-lg;
+    @apply sm:text-xl;
+    @apply lg:text-xl;
+    @apply font-semibold;
+    @apply mt-14;
+    @apply md:mt-9;
+}
+
+.small-paragraph-text {
+    @apply text-base;
+    @apply md:text-lg;
+    @apply lg:text-base;
+    @apply mt-2;
+}
+
+.small-paragraph {
+    @apply text-base;
+    /* @apply sm:text-base; */
+    @apply md:text-lg;
+    @apply lg:text-sm;
+    @apply text-justify;
+    @apply mt-5;
+}
+
+
+.subtitle {
+    @apply text-xl;
+    @apply sm:text-3xl;
+    @apply lg:text-4xl;
+    @apply font-semibold;
+    @apply mt-14;
+    @apply md:mt-9;
+}
+
 .paragraph {
     @apply text-base;
     /* @apply sm:text-base; */
     @apply md:text-lg;
     @apply lg:text-xl;
     @apply text-justify;
+    @apply mt-5;
+}
+
+.paragraph-text {
+    @apply text-base;
+    @apply md:text-lg;
+    @apply lg:text-xl;
     @apply mt-5;
 }
 

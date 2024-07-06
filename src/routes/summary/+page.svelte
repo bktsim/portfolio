@@ -23,7 +23,7 @@
                     Me
                 </h4>
                 <ul class="small-paragraph ml-12">
-                    <li class="my-1">Brendon Tsim - M24 Grad, 4th Year Computer Science Major @ The University of British Columbia </li>
+                    <li class="my-1">Brendon Tsim - BSc Computer Science graduate @ The University of British Columbia </li>
                     <li class="my-1"><strong>3x Internships (~1.25yr)</strong> (Full Stack, Web Dev, Embedded, IoT, Backend) + Freelance (Game Dev)</li>
                     <li class="my-1">3x TA in low-level courses (Models of Computation, Computer Systems, Computer Hardware & OS)</li>
                     <li class="my-1">Distributed Systems, Parallel Computing, Computer Networking, and Machine Learning</li>

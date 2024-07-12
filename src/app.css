@@ -113,6 +113,7 @@ ul {
     @apply sm:px-10;
     @apply md:px-20;
     @apply lg:px-44;
+    @apply w-full;
     @apply my-7;
 }
 

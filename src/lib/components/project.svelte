@@ -19,10 +19,14 @@
      * @type {string}
      */
      export let projectLink;
-     /**
+    /**
       * @type {string}
       */
       export let tooltipText;
+    /**
+     * @type {string}
+     */
+     export let imageCredits;
      import { base } from '$app/paths';
 </script>
 
@@ -30,7 +34,7 @@
 <button 
   type="button" 
   disabled={projectBulletpoint.length === 0 && projectLink === ""} 
-  class="flex flex-col grow w-full mx-2 group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mt-4 md:mt-0" 
+  class="flex flex-col grow w-full sm:mx-2 group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mt-4 md:mt-0" 
   data-hs-overlay="#{projectId}"
 >
     <div class="rounded-t-xl w-full">
@@ -45,6 +49,11 @@
           {projectBlurb}
         </p>
       </div>
+      {#if imageCredits !== ""}
+        <p class="text-xs font-light text-gray-500 dark:text-neutral-400 bottom-0 mt-2">
+          {imageCredits}
+        </p>
+      {/if}
     </div>
 </button>
 

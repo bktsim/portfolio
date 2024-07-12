@@ -8,6 +8,38 @@
 
 <div class="top !mt-0">
 	<article class="project-section">
+		<h4 class="title text-center">distributed & parallel computing</h4>
+		<div class="paragraph-container">
+			<div class="flex flex-col md:flex-row md:basis-full grow w-full">
+				<Project 
+					projectId="raft" 
+					projectName="Raft (as presentned in ATC2014)"
+					projectBlurb="Implemented Raft and KVServer using Raft in Golang."
+					projectBulletpoint={[
+						"Implemented Raft, a distributed systems consensus algorithm (as presented in ATC2014) in Golang.",
+						"Implemented a KVServer using Raft as the consensus algorithm. Handling multiple servers and clients, the server offered strong consistency guarantees and was tolerable to crashes and network partitions.",
+						"Implemented basic sharding for multiple server instances.",
+						"Verified reliability of implementation by running tests provided by the MIT course 6.840 500+ times at each stage using a custom bash script."
+					]}
+					projectLink="https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14.pdf"
+					tooltipText="Link to Paper"
+					imageCredits="Image from ScyllaDB"
+				/>
+				<Project 
+					projectId="promela" 
+					projectName="Promela Model Verification"
+					projectBlurb="Completed exercises in Promela, formulating LTL equations to verify correctness of models."
+					projectBulletpoint={[
+					]}
+					projectLink=""
+					tooltipText=""
+					imageCredits=""
+				/>
+			</div>
+		</div>
+	</article>
+
+	<article class="project-section">
 		<h4 class="title text-center">machine learning</h4>
 		<div class="paragraph-container">
 			<div class="flex flex-col md:flex-row">
@@ -21,6 +53,7 @@
 						]}
 					projectLink="https://docs.google.com/presentation/d/18ALZk-Azj6iYOlqK12G90RqpAqMniVKhxHZFcV8H2DE/edit?usp=sharing"
 					tooltipText="Presentation Slides"
+					imageCredits=""
 				/>
 				<Project 
 					projectId="info" 
@@ -31,6 +64,7 @@
 					]}
 					projectLink="https://docs.google.com/presentation/d/1jR_41FI9ZrhCdlEDEIohjRUwaW2J_JcsCoGeQn1oD7s/edit?usp=sharing"
 					tooltipText="Summary Slides"
+					imageCredits=""
 				/>
 					<Project 
 					projectId="nlp" 
@@ -42,11 +76,13 @@
 					]}
 					projectLink="https://docs.google.com/presentation/d/1iPgyrDBmj3awBQ9RytPWcZsDSxXprcXKRqxp7omErec/edit?usp=sharing"
 					tooltipText="Presentation Slides"
+					imageCredits=""
 				/>
 			</div>
 
 		</div>
 	</article>
+
 	<article class="project-section">
 		<h4 class="title text-center">web development</h4>
 		<div class="paragraph-container">
@@ -58,6 +94,7 @@
 					projectBulletpoint={[]}
 					projectLink=""
 					tooltipText=""
+					imageCredits=""
 				/>
 				<Project 
 					projectId="hashbot" 
@@ -69,8 +106,16 @@
 					]}
 					projectLink="https://www.hashbot.io/"
 					tooltipText="Visit hashbot.io"
+					imageCredits=""
 				/>
 			</div>
+		</div>
+	</article>
+
+	<article class="project-section">
+		<h4 class="title text-center">game development </h4>
+		<div class="paragraph-container text-center">
+			details soon..
 		</div>
 	</article>
 </div>

@@ -17,12 +17,22 @@
      export let projectBlurb;
     /**
      * @type {string}
-    */
+     */
      export let projectLink;
+     /**
+      * @type {string}
+      */
+      export let tooltipText;
      import { base } from '$app/paths';
 </script>
 
-<button type="button" disabled={projectBulletpoint.length === 0} class="flex flex-col grow w-full mx-2 group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mt-4 md:mt-0" data-hs-overlay="#{projectId}">
+
+<button 
+  type="button" 
+  disabled={projectBulletpoint.length === 0 && projectLink === ""} 
+  class="flex flex-col grow w-full mx-2 group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mt-4 md:mt-0" 
+  data-hs-overlay="#{projectId}"
+>
     <div class="rounded-t-xl w-full">
       <img class="top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out aspect-video w-full object-cover max-h-[17rem] md:max-h-36" src="{base}/projects/{projectId}.png" alt="Descr">
     </div>
@@ -35,7 +45,6 @@
           {projectBlurb}
         </p>
       </div>
-
     </div>
 </button>
 
@@ -47,11 +56,18 @@
           <h2 class="text-xl font-bold text-gray-800 dark:text-white inline-flex">
             {projectName}
             {#if projectLink !== ""}
-              <a href={projectLink} target="_blank" class="flex flex-col justify-center align-middle ml-1.5 text-blue-600 dark:text-blue-500">
-                <svg fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-                </svg>   
+            <div class="hs-tooltip inline-flex">
+              <a href={projectLink} target="_blank" class="hs-tooltip-toggle flex flex-col justify-center align-middle ml-2 text-blue-600 dark:text-blue-500">
+                <div class="flex flex-col justify-center align-middle w-full font-light hover:underline text-md">
+                    <svg fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 hover:scale-125 transition-transform duration-200 ease-in-out">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                    </svg>  
+                    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-gray-900 text-xs font-medium text-white rounded shadow-sm dark:bg-neutral-700" role="tooltip">
+                      {tooltipText}
+                    </span> 
+                  </div>
               </a>
+            </div>
             {/if}
           </h2>
           <button type="button" class="flex justify-center items-center size-7 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-700" data-hs-overlay="#{projectId}">

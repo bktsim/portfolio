@@ -120,17 +120,17 @@
 			</p>
 			<p class="text-xl font-light justify-center text-center mt-1">
 				<b>[1]</b> making my own games - leading a small team of 3 to work on
-				<a href="https://roblox.brendontsim.com/programming/neverawake" target="_blank" class="font-bold underline text-blue-400">Homework Simulator</a>,
+				<a href="https://roblox.brendontsim.com/programming/neverawake" target="_blank" class="font-bold underline text-blue-500">Homework Simulator</a>,
 			</p>
 
 			<p class="text-xl font-light justify-center text-center mt-1">
 				<b>[2]</b> ...or for others, like making game economies and weapons for 
-				<a href="https://roblox.brendontsim.com/programming/star-wars" target="_blank" class="font-bold underline text-blue-400">Star Wars Groups</a> with 7k+ members,
+				<a href="https://roblox.brendontsim.com/programming/star-wars" target="_blank" class="font-bold underline text-blue-500">Star Wars Groups</a> with 7k+ members,
 			</p>
 
 			<p class="text-xl font-light justify-center text-center mt-1">
 				<b>[3]</b>...and sometimes, working in teams to develop games like 
-				<a href="https://www.roblox.com/groups/1191237/St-rfall#!/about" target="_blank" class="font-bold underline text-blue-400">Starship Roleplay</a> with 3M+ unique plays.
+				<a href="https://www.roblox.com/groups/1191237/St-rfall#!/about" target="_blank" class="font-bold underline text-blue-500">Starship Roleplay</a> with 3M+ unique plays.
 			</p>
 
 			<p class="text-xl font-light justify-center text-center mt-4">
@@ -139,7 +139,7 @@
 
 			<p class="text-xl font-light justify-center text-center mt-4">
 				You can find some snippets of my past work on my old google site 
-				<a href="https://roblox.brendontsim.com/home" target="_blank" class="font-bold underline text-blue-400">here.</a>
+				<a href="https://roblox.brendontsim.com/home" target="_blank" class="font-bold underline text-blue-500">here.</a>
 			</p>
 		</div>
 	</article>

@@ -139,7 +139,8 @@
 				<p class="paragraph">
 					I'm on the lookout for cool projects that are related to my interests and full-time roles
 					in Canada, USA, Australia, Japan and Hong Kong. I can speak English, Cantonese, Mandarin
-					and Japanese, so any role using more than one language would be a cool plus!
+					and Japanese, so any role using more than one language would be a cool plus! 
+					Especially excited with startups and projects that make impact where it matters.
 				</p>
 				<p class="paragraph">
 					If you'd like to get in touch for academic/career opportunities, projects, or if you'd

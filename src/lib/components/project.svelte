@@ -66,7 +66,7 @@
             {projectName}
             {#if projectLink !== ""}
             <div class="hs-tooltip inline-flex">
-              <a href={projectLink} target="_blank" class="hs-tooltip-toggle flex flex-col justify-center align-middle ml-2 text-blue-600 dark:text-blue-500">
+              <a href={projectLink} target="_blank" class="hs-tooltip-toggle flex flex-col justify-center align-middle ml-2 text-blue-500 dark:text-blue-500">
                 <div class="flex flex-col justify-center align-middle w-full font-light hover:underline text-md">
                     <svg fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 hover:scale-125 transition-transform duration-200 ease-in-out">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />

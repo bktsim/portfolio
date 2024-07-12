@@ -8,8 +8,8 @@
 
 <div class="mt-14 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col grow">
 	<div class="flex flex-col grow justify-center font-light">
-		<div class="flex justify-center">
-			<img class="max-w-sm rounded-lg mb-4 border-pink-300 border-4" src="{base}/wip.png" alt="wip"/>
+		<div class="flex justify-center w-full">
+			<img class="flex sm:max-w-sm rounded-lg mb-4 border-pink-300 border-4" src="{base}/wip.png" alt="wip"/>
 		</div>
 		<p class="text-4xl justify-center text-center">i'm working on this - come back later!</p>
 		<p class="text-xl font-light text-gray-400 justify-center text-center mt-1">

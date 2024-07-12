@@ -107,6 +107,15 @@ ul {
     @apply my-24;
 }
 
+.project-section {
+    @apply mx-auto;
+    @apply px-4;
+    @apply sm:px-10;
+    @apply md:px-20;
+    @apply lg:px-44;
+    @apply my-7;
+}
+
 
 .link {
     @apply font-bold underline text-blue-500;

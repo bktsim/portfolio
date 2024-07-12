@@ -1,42 +1,58 @@
 <script>
-	/**
-	 * @type {string}
-	 */
+    /**
+     * @type {string}
+     */
      export let projectId;
-	/**
-	 * @type {string}
-	 */
+    /**
+     * @type {string}
+     */
      export let projectName;
     /**
-	 * @type {string}
-	 */
-     export let projectDescription;
+     * @type {string[]}
+     */
+     export let projectBulletpoint;
     /**
-	 * @type {string}
-	 */
+     * @type {string}
+     */
      export let projectBlurb;
+    /**
+     * @type {string}
+    */
+     export let projectLink;
+     import { base } from '$app/paths';
 </script>
 
-<button type="button" class="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70" data-hs-overlay="#{projectId}">
-    <div class="relative pt-[50%] sm:pt-[60%] lg:pt-[80%] rounded-t-xl overflow-hidden">
-      <img class="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-t-xl" src="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80" alt="Descr">
+<button type="button" disabled={projectBulletpoint.length === 0} class="flex flex-col grow w-full mx-2 group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mt-4 md:mt-0" data-hs-overlay="#{projectId}">
+    <div class="rounded-t-xl w-full">
+      <img class="top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out aspect-video w-full object-cover max-h-[17rem] md:max-h-36" src="{base}/projects/{projectId}.png" alt="Descr">
     </div>
-    <div class="p-4 md:p-5">
+    <div class="p-4 md:p-5 flex flex-col grow w-full text-center">
       <h3 class="text-lg font-bold text-gray-800 dark:text-white">
         {projectName}
       </h3>
-      <p class="mt-1 text-gray-500 dark:text-neutral-400">
-        {projectBlurb}
-      </p>
+      <div class="flex flex-col grow justify-center">
+        <p class="mt-1 text-gray-500 dark:text-neutral-400">
+          {projectBlurb}
+        </p>
+      </div>
+
     </div>
 </button>
 
+{#if projectBulletpoint.length > 0}
 <div id="{projectId}" class="hs-overlay hidden size-full fixed top-0 start-0 z-[80] overflow-x-hidden overflow-y-auto pointer-events-none">
     <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] flex items-center">
       <div class="w-full max-h-full overflow-hidden flex flex-col bg-white border shadow-sm rounded-xl pointer-events-auto dark:bg-neutral-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
         <div class="flex justify-between items-center py-3 px-4 border-b dark:border-neutral-700">
-          <h2 class="font-bold text-gray-800 dark:text-white">
+          <h2 class="text-xl font-bold text-gray-800 dark:text-white inline-flex">
             {projectName}
+            {#if projectLink !== ""}
+              <a href={projectLink} target="_blank" class="flex flex-col justify-center align-middle ml-1.5 text-blue-600 dark:text-blue-500">
+                <svg fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                </svg>   
+              </a>
+            {/if}
           </h2>
           <button type="button" class="flex justify-center items-center size-7 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-700" data-hs-overlay="#{projectId}">
             <span class="sr-only">Close</span>
@@ -49,9 +65,11 @@
         <div class="p-4 overflow-y-auto">
           <div class="space-y-4">
             <div>
-              <p class="mt-1 text-gray-800 dark:text-neutral-400">
-                {projectDescription}
-              </p>
+                <ul class="ml-4">
+                  {#each projectBulletpoint as bulletPoint}
+                    <li class="my-1">{bulletPoint}</li>
+                  {/each}
+                </ul>
             </div>
           </div>
         </div>
@@ -63,6 +81,4 @@
       </div>
     </div>
   </div>
-  
-  
-  
+{/if}

@@ -20,7 +20,7 @@
 			</h1>
 			<div class="flex flex-col">
 				<h3 class="text-2xl text-center justify-center sm:justify-start sm:text-left sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-medium sm:mt-2">
-					software developer
+					software engineer
 				</h3>
 				<hr class="border-2 my-4 w-80 self-center sm:self-start md:w-xs lg:w-sm xl:w-md" />
 				<div class="flex flex-row justify-center  sm:justify-start">
@@ -126,7 +126,7 @@
 			<h4 class="title">about</h4>
 			<div class="paragraph-container">
 				<p class="paragraph">
-					Hey there! I'm Brendon. I'm a software developer with working experience across the stack
+					Hey there! I'm Brendon. I'm a software engineer with working experience across the stack
 					(full stack, web, embedded, IoT, game dev), and a BSc computer science graduate from The
 					University of British Columbia at Vancouver, Canada.
 				</p>

@@ -48,7 +48,7 @@
 				<Badge color="dark" content="Advanced Image Information" />
 			</div>
 			<p class="paragraph">
-				In terms of development, I have extensive experience with languages like C, TypeScript,
+				In terms of development, I have experience with languages like C, TypeScript,
 				Python and Lua and frameworks like React, Node.js, and more - but honestly, it doesn't
 				really matter to me. I am a strong believer that developers should pick tools based on the
 				task and not the other way around. I am confident in picking up any other language and
@@ -60,7 +60,7 @@
 		<h4 class="title">work experience</h4>
 		<div class="paragraph-container">
 			<p class="paragraph">
-				I have extensive real life software development experience across various different
+				I have professional software development experience across various different
 				industries, working in embedded, backend and fullstack applications.
 			</p>
 

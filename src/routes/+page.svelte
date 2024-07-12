@@ -127,8 +127,8 @@
 			<div class="paragraph-container">
 				<p class="paragraph">
 					Hey there! I'm Brendon. I'm a software developer with working experience across the stack
-					(full stack, web, embedded, IoT, game dev), and a BSc graduate from The
-					University of British Columbia in Vancouver, Canada, majoring in Computer Science.
+					(full stack, web, embedded, IoT, game dev), and a BSc computer science graduate from The
+					University of British Columbia at Vancouver, Canada.
 				</p>
 				<p class="paragraph">
 					In my free time, you can catch me playing the guitar, window shopping keyboards that I

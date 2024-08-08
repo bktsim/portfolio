@@ -13,7 +13,7 @@
 			<div class="flex flex-col md:flex-row md:basis-full grow w-full">
 				<Project 
 					projectId="raft" 
-					projectName="Raft (as presentned in ATC2014)"
+					projectName="Raft (as presented in ATC2014)"
 					projectBlurb="Implemented Raft and KVServer using Raft in Golang."
 					projectBulletpoint={[
 						"Implemented Raft, a distributed systems consensus algorithm (as presented in ATC2014) in Golang.",

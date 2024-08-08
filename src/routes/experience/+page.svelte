@@ -231,8 +231,7 @@
 				I also do game development, localization (Chinese-English) and graphics for ROBLOX games.
 				I've made fully fleshed-out clicker games from scratch (Homework Simulator) myself, and I've
 				also worked in various game studios, including game studios with games that have over 3M+
-				unique plays. In the future, I plan to consolidate and list my work here instead - but for
-				now, you can see my past work at my old Google site <a
+				unique plays. For now, you can see my past work at my old Google site <a
 					href="https://roblox.brendontsim.com/"
 					target="_blank"
 					class="link">here</a

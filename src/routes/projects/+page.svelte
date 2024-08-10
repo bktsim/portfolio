@@ -8,7 +8,7 @@
 
 <div class="top !mt-0">
 	<article class="project-section">
-		<h4 class="title text-center">distributed & parallel computing</h4>
+		<h4 class="title">distributed computing</h4>
 		<div class="paragraph-container">
 			<div class="flex flex-col md:flex-row md:basis-full grow w-full">
 				<Project 
@@ -40,7 +40,7 @@
 	</article>
 
 	<article class="project-section">
-		<h4 class="title text-center">machine learning</h4>
+		<h4 class="title">machine learning</h4>
 		<div class="paragraph-container">
 			<div class="flex flex-col md:flex-row">
 				<Project 
@@ -84,7 +84,7 @@
 	</article>
 
 	<article class="project-section">
-		<h4 class="title text-center">web development</h4>
+		<h4 class="title">web development</h4>
 		<div class="paragraph-container">
 			<div class="flex flex-col md:flex-row md:basis-full">
 				<Project 
@@ -113,31 +113,31 @@
 	</article>
 
 	<article class="project-section">
-		<h4 class="title text-center">ROBLOX game development</h4>
+		<h4 class="title">game development</h4>
 		<div class="paragraph-container">
-			<p class="text-xl font-light justify-center text-center mt-1">
+			<p class="text-xl font-light justify-center mt-1">
 				I did a lot of ROBLOX game development, whether that be...
 			</p>
-			<p class="text-xl font-light justify-center text-center mt-1">
-				<b>[1]</b> making my own games - leading a small team of 3 to work on
+			<p class="text-xl font-light justify-center mt-5 ml-8">
+				making my own games - leading a small team of 3 to work on
 				<a href="https://roblox.brendontsim.com/programming/neverawake" target="_blank" class="font-bold underline text-blue-500">Homework Simulator</a>,
 			</p>
 
-			<p class="text-xl font-light justify-center text-center mt-1">
-				<b>[2]</b> ...or for others, like making game economies and weapons for 
+			<p class="text-xl font-light justify-center mt-3 ml-8">
+				...or for others, like making game economies and weapons for 
 				<a href="https://roblox.brendontsim.com/programming/star-wars" target="_blank" class="font-bold underline text-blue-500">Star Wars Groups</a> with 7k+ members,
 			</p>
 
-			<p class="text-xl font-light justify-center text-center mt-1">
-				<b>[3]</b>...and sometimes, working in teams to develop games like 
+			<p class="text-xl font-light justify-center mt-3 ml-8">
+				...and sometimes, working in teams to develop games like 
 				<a href="https://www.roblox.com/groups/1191237/St-rfall#!/about" target="_blank" class="font-bold underline text-blue-500">Starship Roleplay</a> with 3M+ unique plays.
 			</p>
 
-			<p class="text-xl font-light justify-center text-center mt-4">
+			<p class="text-xl font-light justify-center mt-5">
 				I've been a project lead, team lead, developer, graphic & UI designer in these projects. I now only exclusively do localization for to help games be more available to Chinese speakers.
 			</p>
 
-			<p class="text-xl font-light justify-center text-center mt-4">
+			<p class="text-xl font-light justify-center mt-4">
 				You can find some snippets of my past work on my old google site 
 				<a href="https://roblox.brendontsim.com/home" target="_blank" class="font-bold underline text-blue-500">here.</a>
 			</p>

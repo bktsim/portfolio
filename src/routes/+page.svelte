@@ -9,20 +9,20 @@
 	<div class="flex flex-col sm:flex-row justify-center py-12 sm:min-h-[50vh]">
 		<div class="flex flex-col justify-center">
 			<h1
-				class="text-5xl text-center justify-center sm:justify-start sm:text-left sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl inline-flex"
+				class="text-5xl text-center justify-center sm:justify-start sm:text-left sm:text-5xl md:text-7xl lg:text-8xl xl:text-8xl inline-flex"
 			>
 				(´• ω •`)ﾉ
 			</h1>
 		</div>
 		<div class="flex flex-col justify-center ml-2 sm:ml-6 md:ml-14 mt-4 sm:mt-0">
-			<h1 class="text-3xl text-center justify-center sm:justify-start sm:text-left sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl font-bold">
+			<h1 class="text-4xl text-center justify-center sm:justify-start sm:text-left sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-bold">
 				brendon tsim
 			</h1>
 			<div class="flex flex-col">
-				<h3 class="text-2xl text-center justify-center sm:justify-start sm:text-left sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-medium sm:mt-2">
+				<h3 class="text-xl text-center justify-center sm:justify-start sm:text-left sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl font-medium sm:mt-2">
 					software engineer
 				</h3>
-				<hr class="border-2 my-4 w-80 self-center sm:self-start md:w-xs lg:w-sm xl:w-md" />
+				<hr class=" my-4 w-80 self-center sm:self-start md:w-xs lg:w-sm xl:w-md" />
 				<div class="flex flex-row justify-center  sm:justify-start">
 					<a
 					class="hs-tooltip inline-flex justify-center items-center size-10 text-center rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 md:mr-2 lg:mr-4"

@@ -3,7 +3,7 @@
 	import Footer from '$lib/components/footer.svelte';
 </script>
 
-<Navbar page="" />
+<Navbar page="Summary" />
 
 <div class="top !mt-0">
 	<article class="section !mt-0 !md:mt-20">

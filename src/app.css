@@ -17,6 +17,40 @@ ul {
     @apply mt-14 max-w-[85rem] mx-auto flex flex-col grow mb-14 m-8;
 }
 
+.markdown {
+    h1 {
+        @apply text-4xl;
+        @apply sm:text-5xl;
+        @apply lg:text-6xl;
+        @apply font-semibold;
+        @apply mt-8;
+        @apply md:mt-9;
+        @apply mb-[-10px];
+    }
+    h2 {
+        @apply text-2xl;
+        @apply sm:text-3xl;
+        @apply lg:text-4xl;
+        @apply font-semibold;
+        @apply mt-7;
+        @apply md:mt-8;
+        @apply mb-[-10px];
+    }
+    p, ul {
+        @apply text-base;
+        /* @apply sm:text-base; */
+        @apply md:text-base;
+        @apply lg:text-lg;
+        @apply text-justify;
+        @apply mt-5;
+    }
+
+    ul {
+        @apply ml-10;
+    }
+
+}
+
 .title {
     @apply text-3xl;
     @apply sm:text-5xl;

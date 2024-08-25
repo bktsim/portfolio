@@ -4,7 +4,7 @@
 	import Project from "$lib/components/project.svelte";
 </script>
 
-<Navbar page="projects" />
+<Navbar page="Projects" />
 
 <div class="top !mt-0">
 	<article class="project-section">

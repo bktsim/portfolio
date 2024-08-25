@@ -6,7 +6,8 @@
 		about: 'about',
 		projects: 'projects',
 		experience: 'dev experience',
-		hobbies: 'hobbies'
+		hobbies: 'hobbies',
+		blog: "blog"
 	};
 
 	/**
@@ -41,6 +42,10 @@
 
 	kaomoji_set();
 </script>
+
+<svelte:head>
+	<title> Brendon | {page === 'index' ? 'About' : page}</title>
+</svelte:head>
 
 <header
 	class="flex md:sticky md:top-0 inset-x-0 flex-wrap md:justify-start md:flex-nowrap z-50 min-w-screen text-sm backdrop-blur-sm rounded"
@@ -112,25 +117,32 @@
 				>
 				<a
 					class="links"
-					class:selected={page === 'experience'}
-					class:unselected={page !== 'experience'}
+					class:selected={page === 'Experience'}
+					class:unselected={page !== 'Experience'}
 					href="{base}/experience"
 					aria-current="page">{text.experience}</a
 				>
 				<a
 					class="links"
-					class:selected={page === 'projects'}
-					class:unselected={page !== 'projects'}
+					class:selected={page === 'Projects'}
+					class:unselected={page !== 'Projects'}
 					href="{base}/projects"
 					aria-current="page">{text.projects}</a
 				>
 				<a
 					class="links"
-					class:selected={page === 'hobbies'}
-					class:unselected={page !== 'hobbies'}
+					class:selected={page === 'Hobbies'}
+					class:unselected={page !== 'Hobbies'}
 					href="{base}/hobbies"
 					aria-current="page">{text.hobbies}</a
 				>
+				<!-- <a
+					class="links"
+					class:selected={page === 'Blog'}
+					class:unselected={page !== 'Blog'}
+					href="{base}/blog"
+					aria-current="page">{text.blog}</a
+				> -->
 			</div>
 		</div>
 	</nav>

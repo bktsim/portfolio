@@ -7,7 +7,7 @@
 	import Badge from '$lib/components/badge.svelte';
 </script>
 
-<Navbar page="experience" />
+<Navbar page="Experience" />
 <!-- mt-14 max-w-[70rem] mx-8 sm:mx-auto sm:px-24 lg:px-36 mb-14 -->
 <div class="top">
 	<article class="section">

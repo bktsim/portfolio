@@ -37,10 +37,8 @@ ul {
     }
     p, ul {
         @apply text-base;
-        /* @apply sm:text-base; */
         @apply md:text-base;
         @apply lg:text-lg;
-        @apply text-justify;
         @apply mt-5;
     }
 

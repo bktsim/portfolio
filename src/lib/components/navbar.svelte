@@ -1,12 +1,12 @@
 <script lang="ts">
 	export let page: string;
-	export let blogTitle: string | undefined;
+	export let blogTitle: string | undefined = undefined;
 	import { base } from '$app/paths';
 	const text = {
 		name: 'brendon',
 		about: 'about',
 		projects: 'projects',
-		experience: 'dev experience',
+		experience: 'experience',
 		hobbies: 'hobbies',
 		blog: "blog"
 	};
@@ -23,7 +23,7 @@
 		'(*・ω・)ﾉ',
 		'( ´ ▽ ` )/',
 		'(￣▽￣)/',
-		'|･ω･)',
+		'| ･ω･)',
 		'(￣^￣)ゞ',
 		'_(:3 」∠)_	'
 	];
@@ -62,17 +62,15 @@
 		class="mt-6 relative max-w-[85rem] w-full bg-white border border-gray-200 rounded-[36px] mx-2 py-3 px-4 md:flex md:flex-row md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto"
 		aria-label="Global"
 	>
-		<a class="grow hidden md:inline-flex min-w-fit name pl-2" href="{base}/" aria-label="Brand"
-			>{text.name} {current_kaomoji}</a
-		>
-
+		<a class="grow hidden md:inline-flex min-w-fit name" href="{base}/" aria-label="Brand"
+			>{text.name} {current_kaomoji}</a>
 		<div class="md:hidden flex items-center justify-between">
-			<a class="inline-flex grow flex-row pl-2 name" href="{base}/" aria-label="Brand"
-				>{text.name} {current_kaomoji}</a
-			>
-			<button
+			<a class="inline-flex grow flex-row name justify-center" href="{base}/" aria-label="Brand"
+				>{text.name} <br class="sm:hidden"/> {current_kaomoji}</a>
+			<div class="flex flex-col justify-center">
+				<button
 				type="button"
-				class="hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full self-end border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+				class="hs-collapse-toggle size-10 flex justify-center items-center text-sm font-semibold rounded-full self-end border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
 				data-hs-collapse="#navbar-collapse-with-animation-{page}"
 				aria-controls="navbar-collapse-with-animation-{page}"
 				aria-label="Toggle navigation"
@@ -108,44 +106,45 @@
 					stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg
 				>
 			</button>
+			</div>
 		</div>
 		<div
 			id="navbar-collapse-with-animation-{page}"
 			class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
 		>
 			<div
-				class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:self-end md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:ps-7"
+				class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:self-end md:justify-end md:gap-y-0 md:gap-x-5 md:mt-0 md:ps-7 text-center"
 			>
 				<a
+					class="links flex justify-center flex-col"
 					class:selected={page === 'index'}
 					class:unselected={page !== 'index'}
-					class="links"
 					href="{base}/"
 					aria-current="page">{text.about}</a
 				>
 				<a
-					class="links"
+					class="links flex justify-center flex-col"
 					class:selected={page === 'Experience'}
 					class:unselected={page !== 'Experience'}
 					href="{base}/experience"
 					aria-current="page">{text.experience}</a
 				>
 				<a
-					class="links"
+					class="links flex justify-center flex-col"
 					class:selected={page === 'Projects'}
 					class:unselected={page !== 'Projects'}
 					href="{base}/projects"
 					aria-current="page">{text.projects}</a
 				>
 				<a
-					class="links"
+					class="links flex justify-center flex-col"
 					class:selected={page === 'Hobbies'}
 					class:unselected={page !== 'Hobbies'}
 					href="{base}/hobbies"
 					aria-current="page">{text.hobbies}</a
 				>
 				<a
-					class="links"
+					class="links flex justify-center flex-col"
 					class:selected={page === 'Blog'}
 					class:unselected={page !== 'Blog'}
 					href="{base}/blog"

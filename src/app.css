@@ -19,15 +19,6 @@ ul {
 
 .markdown {
     h1 {
-        @apply text-4xl;
-        @apply sm:text-5xl;
-        @apply lg:text-6xl;
-        @apply font-semibold;
-        @apply mt-8;
-        @apply md:mt-9;
-        @apply mb-[-10px];
-    }
-    h2 {
         @apply text-2xl;
         @apply sm:text-3xl;
         @apply lg:text-4xl;
@@ -35,6 +26,14 @@ ul {
         @apply mt-7;
         @apply md:mt-8;
         @apply mb-[-10px];
+    }
+    h2 {
+        @apply text-lg;
+        @apply sm:text-xl;
+        @apply lg:text-xl;
+        @apply font-semibold;
+        @apply mt-14;
+        @apply md:mt-9;
     }
     p, ul {
         @apply text-base;

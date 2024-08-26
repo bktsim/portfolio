@@ -30,20 +30,25 @@ ul {
     h2 {
         @apply text-lg;
         @apply sm:text-xl;
-        @apply lg:text-xl;
+        /* @apply lg:text-xl; */
         @apply font-semibold;
         @apply mt-14;
         @apply md:mt-9;
     }
     p, ul {
         @apply text-base;
-        @apply md:text-base;
-        @apply lg:text-lg;
+        /* @apply md:text-base;
+        @apply lg:text-base; */
         @apply mt-5;
     }
 
     ul {
         @apply ml-10;
+    }
+
+    a {
+        @apply font-semibold text-blue-500;
+        @apply hover:text-blue-600 hover:bg-slate-200;
     }
 
 }

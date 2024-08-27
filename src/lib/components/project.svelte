@@ -38,7 +38,7 @@
   data-hs-overlay="#{projectId}"
 >
     <div class="rounded-t-xl w-full">
-      <img class="top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out aspect-video w-full object-cover max-h-[17rem] md:max-h-36" src="{base}/projects/{projectId}.png" alt="Descr">
+      <img loading="lazy" class="top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out aspect-video w-full object-cover max-h-[17rem] md:max-h-36" src="{base}/projects/{projectId}.png" alt="Description">
     </div>
     <div class="p-4 md:p-5 flex flex-col grow w-full text-center">
       <h3 class="text-lg font-bold text-gray-800 ">

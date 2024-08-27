@@ -45,7 +45,7 @@
 	>
 		<div class="flex flex-row p-2 grow">
 			<div class="flex flex-col justify-center mr-5">
-				<img src="{base}/company/{key}.png" class="flex w-12" alt="{key} logo" />
+				<img loading="lazy" src="{base}/company/{key}.png" class="flex w-12" alt="{key} logo" />
 			</div>
 			<div
 				class="flex flex-col sm:justify-center sm:items-start paragraph !mt-0 justify-normal !text-left"

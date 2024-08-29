@@ -1,1 +1,0 @@
-import{b as e}from"../chunks/paths.C0MJdbQ9.js";import{r}from"../chunks/index.De_1-CT6.js";function o(){r(302,`${e}/resume.pdf`)}const i=Object.freeze(Object.defineProperty({__proto__:null,load:o},Symbol.toStringTag,{value:"Module"}));export{i as universal};

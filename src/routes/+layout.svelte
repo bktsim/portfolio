@@ -7,7 +7,6 @@
 		// @ts-ignore
 		window.HSStaticMethods.autoInit();
 	});
-
 	export let data;
 </script>
 

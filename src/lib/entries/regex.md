@@ -78,7 +78,9 @@ impl HirConfusables {
         for confusable in confusables {
             if !confusables_set.contains(&confusable) {
                 confusables_set.insert(confusable);
-                ranges.push(ClassUnicodeRange::new(confusable, confusable));
+                ranges.push(
+                    ClassUnicodeRange::new(confusable, confusable)
+                );
             }
         }
     }
@@ -101,7 +103,8 @@ pub static HIR_CONFUSABLES_MAP: LazyLock<HirConfusables> =
         confusables.add_confusables(
             'a',
             vec![
-                'ɑ', 'ａ', '𝐚', '𝑎', '𝒂', '𝒶', '𝓪', '𝔞', '𝕒', '𝖆',
+                'ɑ', 'ａ', '𝐚', '𝑎', '𝒂',
+                '𝒶', '𝓪', '𝔞', '𝕒', '𝖆',
                 '𝖺', '𝗮', '𝘢', '𝙖', '𝚊',
             ],
         );
@@ -121,7 +124,8 @@ impl Hir {
         if bytes.len() == 1 {
             let character = bytes[0] as char;
             let confusables_data =
-                HIR_CONFUSABLES_MAP.get_confusables_data(character);
+                HIR_CONFUSABLES_MAP
+                    .get_confusables_data(character);
             if confusables_data.len() > 0 {
                 Hir::class(Class::Unicode(
                     ClassUnicode::new(confusables_data))

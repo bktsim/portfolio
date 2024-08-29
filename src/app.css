@@ -53,6 +53,7 @@ ul {
 
 	code {
 		@apply text-sm;
+		@apply text-wrap;
 	}
 
 	ul {

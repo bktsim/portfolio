@@ -8,7 +8,7 @@
 		projects: 'projects',
 		experience: 'experience',
 		hobbies: 'hobbies',
-		blog: "blog"
+		blog: 'blog'
 	};
 
 	/**
@@ -44,15 +44,17 @@
 	kaomoji_set();
 
 	let page_title = page;
-	if (page === "index") {
-		page_title = "About";
-	} else if (page === "Blog" && blogTitle) {
+	if (page === 'index') {
+		page_title = 'About';
+	} else if (page === 'Blog' && blogTitle) {
 		page_title = blogTitle;
+	} else if (page === 'Hi!') {
+		page = 'index';
 	}
 </script>
 
 <svelte:head>
-	<title> Brendon - {page_title} </title>
+	<title>Brendon - {page_title}</title>
 </svelte:head>
 
 <header
@@ -63,49 +65,51 @@
 		aria-label="Global"
 	>
 		<a class="grow hidden md:inline-flex min-w-fit name" href="{base}/" aria-label="Brand"
-			>{text.name} {current_kaomoji}</a>
+			>{text.name} {current_kaomoji}</a
+		>
 		<div class="md:hidden flex items-center justify-between">
 			<a class="inline-flex grow flex-row name justify-center" href="{base}/" aria-label="Brand"
-				>{text.name} <br class="sm:hidden"/> {current_kaomoji}</a>
+				>{text.name} <br class="sm:hidden" /> {current_kaomoji}</a
+			>
 			<div class="flex flex-col justify-center">
 				<button
-				type="button"
-				class="hs-collapse-toggle size-10 flex justify-center items-center text-sm font-semibold rounded-full self-end border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
-				data-hs-collapse="#navbar-collapse-with-animation-{page}"
-				aria-controls="navbar-collapse-with-animation-{page}"
-				aria-label="Toggle navigation"
-			>
-				<svg
-					class="hs-collapse-open:hidden flex-shrink-0 size-4"
-					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					><line x1="3" x2="21" y1="6" y2="6" /><line x1="3" x2="21" y1="12" y2="12" /><line
-						x1="3"
-						x2="21"
-						y1="18"
-						y2="18"
-					/></svg
+					type="button"
+					class="hs-collapse-toggle size-10 flex justify-center items-center text-sm font-semibold rounded-full self-end border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+					data-hs-collapse="#navbar-collapse-with-animation-{page}"
+					aria-controls="navbar-collapse-with-animation-{page}"
+					aria-label="Toggle navigation"
 				>
-				<svg
-					class="hs-collapse-open:block hidden flex-shrink-0 size-4"
-					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg
-				>
-			</button>
+					<svg
+						class="hs-collapse-open:hidden flex-shrink-0 size-4"
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						><line x1="3" x2="21" y1="6" y2="6" /><line x1="3" x2="21" y1="12" y2="12" /><line
+							x1="3"
+							x2="21"
+							y1="18"
+							y2="18"
+						/></svg
+					>
+					<svg
+						class="hs-collapse-open:block hidden flex-shrink-0 size-4"
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg
+					>
+				</button>
 			</div>
 		</div>
 		<div

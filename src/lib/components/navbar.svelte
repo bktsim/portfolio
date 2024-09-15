@@ -147,6 +147,7 @@
 					href="{base}/hobbies"
 					aria-current="page">{text.hobbies}</a
 				>
+			<!--
 				<a
 					class="links flex justify-center flex-col"
 					class:selected={page === 'Blog'}
@@ -154,6 +155,7 @@
 					href="{base}/blog"
 					aria-current="page">{text.blog}</a
 				>
+			-->
 			</div>
 		</div>
 	</nav>

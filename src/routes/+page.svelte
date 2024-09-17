@@ -1,73 +1,75 @@
+<script>
+    import { PFP } from "../resource.js";
+    import Navbar from "$lib/Navbar.svelte";
+</script>
+
 <main>
-    <!-- <Navbar /> -->
-    <div class="grid grid-cols-7 pt-10">
-        <div class="col-span-7 md:col-span-3 flex justify-center">
-            <!-- <pre class="text-[0.0525em]/[1.06em]">{PFP}</pre> -->
+    <Navbar />
+    <div class="grid grid-cols-7 gap-0">
+        <div
+            class="col-span-7 md:col-span-3 md:mr-4 flex justify-end border-2 border-dotted overflow-clip"
+        >
+            <pre class="text-[0.1rem]/[0.125rem]">{PFP}</pre>
         </div>
+
         <div class="col-span-7 pt-4 md:pt-0 md:col-span-4">
             <div
-                class="md:p-4 h-full grow flex flex-col justify-center"
+                class="md:p-4 h-full grow flex flex-col justify-center text-left"
             >
-                <h3>hal</h3>
-                <p>permanent resident of the interwebs</p>
+                <h3>brendon</h3>
+                <h5>software engineer</h5>
+                <p class="text-sm pb-3">contact (at) brendontsim (dot) com</p>
                 <ul class="list">
                     <li>
-                        <a href="https://x.com/halwowo" target="_blank">
-                            x.com
+                        <a href="https://github.com/bktsim" target="_blank">
+                            github
                         </a>
                     </li>
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/brendontsim/"
+                            target="_blank"
+                        >
+                            linkedin
+                        </a>
+                    </li>
+                    <li>email for resume (en/ja)</li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="grid grid-cols-6 gap-6">
+    <div class="grid grid-cols-6 gap-6 pt-6">
         <div class="col-span-6 box">
             <h4>about</h4>
-            <p>incoming swe at some series-A startup in japan.</p>
             <p>
-                interested in distsys, networks, databases, applied ml
-                and entreprenurship.
+                Full stack application development with a backend focus. <br />
+                <br class="sm:hidden" />
+                University of British Columbia (Canada) graduate. Currently based
+                in Japan. <br /> <br class="sm:hidden" />
+                I read papers, make tea, play maimai, weeb out, snowboard and build
+                things.
             </p>
         </div>
-
-        <div class="col-span-6 md:col-span-3 box">
-            <h4>recs</h4>
+        <div class="col-span-6 sm:col-span-3 box">
+            <h4>work stuff</h4>
             <ul class="list">
+                <li>1.25yr SWE exp (and counting)</li>
                 <li>
-                    <a
-                        href="https://myanimelist.net/anime/57524/Make_Heroine_ga_Oosugiru"
-                        target="_blank">too many losing heroines</a
-                    >
+                    1yr Teaching Assistant (computer systems, operating system
+                    courses)
                 </li>
-                <li>
-                    vspo (<a
-                        class="inline"
-                        href="https://myanimelist.net/anime/57524/Make_Heroine_ga_Oosugiru"
-                        target="_blank">hinano</a
-                    >,
-                    <a
-                        href="https://myanimelist.net/anime/57524/Make_Heroine_ga_Oosugiru"
-                        target="_blank">met</a
-                    >,
-                    <a
-                        href="https://myanimelist.net/anime/57524/Make_Heroine_ga_Oosugiru"
-                        target="_blank">tsuna</a
-                    >)
-                </li>
-                <li>
-                    <a
-                        href="https://15445.courses.cs.cmu.edu/fall2023/"
-                        target="_blank">CMU 15-445 database systems</a
-                    >
-                </li>
+                <li>Web, embedded, game, IoT</li>
+                <li>JLPT N1 (business japanese)</li>
             </ul>
         </div>
-        <div class="col-span-6 md:col-span-3 box">
-            <h4>agenda</h4>
+        <div class="col-span-6 sm:col-span-3 box">
+            <h4>current status</h4>
             <ul class="list">
-                <li>databases deep dive</li>
-                <li>job board project</li>
-                <li>job prep</li>
+                <li>japan prep</li>
+                <li>building job board project</li>
+                <li>working on database textbooks</li>
+                <li>trying to write more</li>
+                <li>getting used to nvim</li>
             </ul>
         </div>
     </div>

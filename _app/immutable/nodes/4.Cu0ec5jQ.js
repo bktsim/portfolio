@@ -1,0 +1,24 @@
+import{s as D,n as P}from"../chunks/scheduler.CtbWrGNo.js";import{S as A,i as $,e as p,c as N,s as d,a as h,b as R,d as G,f as m,j as b,h as H,k as f,l as O,m as q,n as s,o as K,p as U,q as W}from"../chunks/index.CdfeaM24.js";import{N as j}from"../chunks/Navbar.E851lL3G.js";function B(V){let e,i,v,u,_='<h4 class="font-bold">thanks for visiting.</h4> <h5>Your time is valuable, so I&#39;ll keep it short.</h5>',y,n,x=`<h5 class="font-semibold">Me (brendon)</h5> <ul class="list"><li>24&#39; BSc comp sci graduate from University of British Columbia
+                (Vancouver, Canada)</li> <li><b>3x internships (1.25yr)</b> (full stack, web, embedded, IoT, backend)
+                + freelance (game)</li> <li><b>3x teaching assistant (1yr)</b> in computer architecture, computer
+                hardware &amp; os</li> <li>Interested in distributed systems, computer networking, applied
+                ml and entreprenurship</li></ul>`,w,l,L=`<h5 class="font-semibold">Experience</h5> <ul class="list"><li><b class="underline text-sky-600">Arista Networks:</b> Worked on
+                SONiC, open source network OS with Python and C++.</li> <li><b class="text-yellow-500 underline">Alida:</b> Full-stack surveys,
+                accessible question types with TypeScript, React and C#.</li> <li><b class="text-yellow-600 underline">Kai Shing:</b> Automated manual
+                processes &amp; linked IoT data to apps with Java, Python, SQL</li></ul> <p class="pt-2"><b>Technologies:</b> C, C#, C++, Python, TypeScript, React, Java, SQL</p>`,C,o,M=`<h5 class="font-semibold">Projects</h5> <ul class="list"><li><b>[DistSys]</b> Implemented
+                <a href="https://www.usenix.org/conference/atc14/technical-sessions/presentation/ongaro">Raft (ATC2014)</a>, a distsys consensus protocol. Built fault-tolerant KV server
+                and sharding logic using Raft as protocol in Go (Golang).</li> <li><b>[ML/CV]</b> Created Japanese coin counter CV model from scratch
+                using YOLOV8 and Python. Implemented utility tool using Hough Circle
+                Transform to help labelling process.</li> <li><b>[WebDev]</b> Made
+                <a href="https://www.hashbot.io/">hashbot.io</a> for a Discord bot
+                with 10M+ users in TypeScript &amp; Next.js.</li> <li><b>[GameDev]</b> Worked on updates using Lua for Starship
+                Roleplay, (3M+ unique game visits). Also made my own games:
+                <a href="https://www.roblox.com/games/5609136861/Homework-Simulator">Homework Simulator</a>
+                and
+                <a href="https://roblox.com/games/139404174858131/king-of-the-king-of-the-hills">King of the King of the Hills</a>.</li></ul> <p class="pt-2"><b>Technologies:</b>
+            Go (Golang), TypeScript, Python, Lua</p>`,k,r,S=`<h5 class="font-semibold">Cool courses I took (and skills I have)</h5> <ul class="list"><li><b>[Parallel Computing] CUDA:</b> CUDA internals and building GPU
+                kernels.</li> <li><b>[Software Verification] SPIN:</b> Verifying software models using
+                formal methods &amp; LTL</li> <li><b>[Multimedia]</b> streaming tech like Video Compression, RD Optimization,
+                WebRTC, etc.</li> <li><b>[Entreprenurship]</b> 0-&gt;1, doing startup and going through feasibility
+                plan, business plan, market research, MVP, pitching, etc.</li></ul>`,T,c,I=`<h4 class="font-bold">thank you for your time.</h4> <p>If you&#39;d like to chat, please reach out at [contact (at) brendontsim
+            (dot) com].</p> <p>Feel free to explore the rest of my site!</p>`,g;return i=new j({}),{c(){e=p("main"),N(i.$$.fragment),v=d(),u=p("div"),u.innerHTML=_,y=d(),n=p("div"),n.innerHTML=x,w=d(),l=p("div"),l.innerHTML=L,C=d(),o=p("div"),o.innerHTML=M,k=d(),r=p("div"),r.innerHTML=S,T=d(),c=p("div"),c.innerHTML=I,this.h()},l(a){e=h(a,"MAIN",{});var t=R(e);G(i.$$.fragment,t),v=m(t),u=h(t,"DIV",{"data-svelte-h":!0}),b(u)!=="svelte-cpbg11"&&(u.innerHTML=_),y=m(t),n=h(t,"DIV",{class:!0,"data-svelte-h":!0}),b(n)!=="svelte-1sspc36"&&(n.innerHTML=x),w=m(t),l=h(t,"DIV",{class:!0,"data-svelte-h":!0}),b(l)!=="svelte-12rh7dy"&&(l.innerHTML=L),C=m(t),o=h(t,"DIV",{class:!0,"data-svelte-h":!0}),b(o)!=="svelte-1g6nb8s"&&(o.innerHTML=M),k=m(t),r=h(t,"DIV",{class:!0,"data-svelte-h":!0}),b(r)!=="svelte-15c5uzr"&&(r.innerHTML=S),T=m(t),c=h(t,"DIV",{class:!0,"data-svelte-h":!0}),b(c)!=="svelte-1cm5ui9"&&(c.innerHTML=I),t.forEach(H),this.h()},h(){f(n,"class","pt-10"),f(l,"class","pt-10"),f(o,"class","pt-10"),f(r,"class","pt-10"),f(c,"class","pt-14")},m(a,t){O(a,e,t),q(i,e,null),s(e,v),s(e,u),s(e,y),s(e,n),s(e,w),s(e,l),s(e,C),s(e,o),s(e,k),s(e,r),s(e,T),s(e,c),g=!0},p:P,i(a){g||(K(i.$$.fragment,a),g=!0)},o(a){U(i.$$.fragment,a),g=!1},d(a){a&&H(e),W(i)}}}class F extends A{constructor(e){super(),$(this,e,null,B,D,{})}}export{F as component};

@@ -46,6 +46,10 @@
                 <br class="sm:hidden" />
                 University of British Columbia (Canada) graduate. Currently based
                 in Japan. <br /> <br class="sm:hidden" />
+                Interested in too many things, but mainly distsys, applied ML and
+                performance eng, especially in GPU, ML workflows, large scale compute,
+                compiler optimization, etc.
+                <br /> <br class="sm:hidden" />
                 I read papers, make tea, play maimai, weeb out, snowboard and build
                 things.
             </p>
@@ -54,12 +58,8 @@
             <h4>work stuff</h4>
             <ul class="list">
                 <li>1.25yr SWE exp (and counting)</li>
-                <li>
-                    1yr Teaching Assistant (computer systems, operating system
-                    courses)
-                </li>
+                <li>1yr TA (comp arch, hardware & OS)</li>
                 <li>Web, embedded, game, IoT</li>
-                <li>JLPT N1 (business japanese)</li>
             </ul>
         </div>
         <div class="col-span-6 sm:col-span-3 box">
@@ -68,8 +68,6 @@
                 <li>japan prep</li>
                 <li>building job board project</li>
                 <li>working on database textbooks</li>
-                <li>trying to write more</li>
-                <li>getting used to nvim</li>
             </ul>
         </div>
     </div>

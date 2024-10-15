@@ -42,13 +42,13 @@
         <div class="col-span-6 box">
             <h4>about</h4>
             <p>
-                Full stack application development with a backend focus. <br />
+                Full stack software engineer with a backend focus. <br />
                 <br class="sm:hidden" />
                 University of British Columbia (Canada) graduate. Currently based
                 in Japan. <br /> <br class="sm:hidden" />
                 Interested in too many things, but mainly distsys, applied ML and
-                performance eng, especially in GPU, ML workflows, large scale compute,
-                compiler optimization, etc.
+                performance eng. Diving into databases, GPUs, ML workflows, large
+                compute infra and web optimizations.
                 <br /> <br class="sm:hidden" />
                 I read papers, make tea, play maimai, weeb out, snowboard and build
                 things.
@@ -59,7 +59,7 @@
             <ul class="list">
                 <li>1.25yr SWE exp (and counting)</li>
                 <li>1yr TA (comp arch, hardware & OS)</li>
-                <li>Web, embedded, game, IoT</li>
+                <li>full stack, web, embedded, game</li>
             </ul>
         </div>
         <div class="col-span-6 sm:col-span-3 box">

@@ -15,8 +15,8 @@
         <Job
             company={"Sales Marker - SWE"}
             companyColor={"#0766f4"}
-            timeFrame={"10.2024 - Present"}
-            technologies={["TypeScript"]}
+            timeFrame={"11.2024 - Present"}
+            technologies={["TypeScript, Node.js"]}
             location={"Tokyo, Japan"}
             bulletPoints={["Incoming SWE for full stack development."]}
         />

@@ -184,6 +184,10 @@ hr {
     @apply [&>li]:pb-2 sm:[&>li]:pb-0;
 }
 
+.project {
+    @apply [&>*]:py-0 [&>*]:my-0 text-sm pb-1;
+}
+
 pre {
     user-select: none;
 }

@@ -39,7 +39,7 @@
     <ul class="list">
         <li>
             <a href="https://use-the-index-luke.com/" target="_blank"
-                >Use The Index, Luke! Markus Winand</a
+                >Use The Index, Luke!, Markus Winand</a
             >
         </li>
         <li>

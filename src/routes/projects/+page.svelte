@@ -8,8 +8,10 @@
     <div class="w-full grid grid-cols-7 gap-6">
         <div class="col-span-7 box">
             <h5 class="my-0 py-0">this website</h5>
-            <p class="text-sm">web development</p>
-
+            <div class="project">
+                <div>web development</div>
+                <div class="text-gray-400">svelte</div>
+            </div>
             <ul class="list">
                 <li>ur looking at it right now. built with svelte!</li>
             </ul>
@@ -17,7 +19,10 @@
 
         <div class="col-span-7 sm:col-span-4 box">
             <h5 class="my-0 py-0">raft</h5>
-            <p class="text-sm">distributed computing</p>
+            <div class="project">
+                <div>distributed computing</div>
+                <div class="text-gray-400">go (golang)</div>
+            </div>
             <ul class="list">
                 <li>
                     implemented raft, a distsys consensus algorithm in Go (as
@@ -36,11 +41,52 @@
         </div>
         <div class="col-span-7 sm:col-span-3 box">
             <h5 class="my-0 py-0">promela</h5>
-            <p class="text-sm">software verification</p>
+            <div class="project">
+                <div>software verification</div>
+                <div class="text-gray-400">SPIN</div>
+            </div>
             <ul class="list">
                 <li>
                     used LTL in Promela (SPIN) to verify correctness of
                     concurrent protocols
+                </li>
+            </ul>
+        </div>
+        <div class="col-span-7 box">
+            <h5 class="my-0 py-0">japan job board</h5>
+            <div class="project">
+                <div>
+                    full stack development, web development, applied AI (LLM
+                    agents)
+                </div>
+                <div class="text-gray-400">
+                    go (golang), docker, rabbitmq, postgreSQL, gemini,
+                    javascript, vue.js
+                </div>
+            </div>
+            <ul class="list">
+                <li>
+                    building job board that scrapes jobs of top companies in
+                    Japan off the web.
+                </li>
+                <li>
+                    applied LLMs with structured output to tag jobs into
+                    categories and add metadata (e.g. translate details to
+                    Japanese) to improve querying experience.
+                </li>
+                <li>
+                    built services in Go, Docker, RabbitMQ to facilitate
+                    processing and validation of leads for jobs, ensuring data
+                    liveliness and validity.
+                </li>
+                <li>
+                    optimized query runtimes by implementing appropriate indexes
+                    for DB with caching layer at the application level to avoid
+                    redundant/frequent queries.
+                </li>
+                <li>
+                    building responsive, accessible & internationalized (en/ja)
+                    page in vue.
                 </li>
             </ul>
         </div>
@@ -49,12 +95,14 @@
             on:click={() => window.open("https://www.hashbot.io", "_blank")}
         >
             <h5 class="my-0 py-0">hashbot</h5>
-            <p class="text-sm">web development, compilers</p>
+            <div class="project">
+                <div>web development, compilers</div>
+                <div class="text-gray-400">typescript, react, next.js</div>
+            </div>
             <ul class="list">
                 <li>
-                    created hashbot.io with Next.js, TypeScript and React for
-                    Hashbot, a discord bot protecting large Web3 servers (3M+
-                    users) against impersonators.
+                    created hashbot.io for Hashbot, a discord bot protecting
+                    large Web3 servers (3M+ users) against impersonators.
                 </li>
                 <li>
                     integrated analytics & subscription management features into
@@ -101,7 +149,10 @@
                 )}
         >
             <h5 class="my-0 py-0">japanese coin counter</h5>
-            <p class="text-sm">machine learning, computer vision</p>
+            <div class="project">
+                <div>machine learning, computer vision</div>
+                <div class="text-gray-400">python, YOLOV8, OpenCV</div>
+            </div>
             <ul class="list">
                 <li>
                     built dataset from scratch and trained a coin segmentation &
@@ -123,7 +174,11 @@
                     )}
             >
                 <h5 class="my-0 py-0">TREC CaST summary</h5>
-                <p class="text-sm">machine learning, information retrieval</p>
+                <div class="project">
+                    <div>machine learning, information retrieval</div>
+                    <div class="text-gray-400">research</div>
+                </div>
+
                 <ul class="list">
                     <li>
                         wrote a summary on 2021 TREC, CaST track on
@@ -140,20 +195,26 @@
                     )}
             >
                 <h5 class="my-0 py-0">survey on ASR error correction</h5>
-                <p class="text-sm">
-                    machine learning, natural language processing
-                </p>
+                <div class="project">
+                    <div>machine learning, natural language processing</div>
+                    <div class="text-gray-400">research</div>
+                </div>
+
                 <ul class="list">
                     <li>
-                        wrote a summary on 2021 TREC, CaST track on
-                        conversational search.
+                        wrote a survey on recent ASR error correction
+                        techniques.
                     </li>
                 </ul>
             </button>
         </div>
         <div class="col-span-7 box">
             <h5 class="my-0 py-0">roblox game development</h5>
-            <p class="text-sm">game dev</p>
+            <div class="project">
+                <div>game dev</div>
+                <div class="text-gray-400">lua</div>
+            </div>
+
             <ul class="list">
                 <li>
                     6+ years of ROBLOX game development as both leader and

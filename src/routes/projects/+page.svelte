@@ -52,7 +52,11 @@
                 </li>
             </ul>
         </div>
-        <div class="col-span-7 box">
+        <button
+            class="col-span-7 box text-left"
+            on:click={() =>
+                window.open("https://jobs.brendontsim.com", "_blank")}
+        >
             <h5 class="my-0 py-0">japan job board</h5>
             <div class="project">
                 <div>
@@ -61,7 +65,7 @@
                 </div>
                 <div class="text-gray-400">
                     go (golang), docker, rabbitmq, postgreSQL, gemini,
-                    javascript, vue.js
+                    javascript, svelte, oracle cloud, apache2
                 </div>
             </div>
             <ul class="list">
@@ -85,11 +89,11 @@
                     redundant/frequent queries.
                 </li>
                 <li>
-                    building responsive, accessible & internationalized (en/ja)
-                    page in vue.
+                    configured apache2 and ip ports on oracle cloud to host
+                    website
                 </li>
             </ul>
-        </div>
+        </button>
         <button
             class="col-span-7 box text-left hover:bg-gray-100 flex flex-col justify-start"
             on:click={() => window.open("https://www.hashbot.io", "_blank")}

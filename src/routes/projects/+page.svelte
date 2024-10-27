@@ -96,7 +96,7 @@
         </button>
         <button
             class="col-span-7 box text-left hover:bg-gray-100 flex flex-col justify-start"
-            on:click={() => window.open("https://www.hashbot.io", "_blank")}
+            on:click={() => window.open("https://hashbot.pages.dev", "_blank")}
         >
             <h5 class="my-0 py-0">hashbot</h5>
             <div class="project">

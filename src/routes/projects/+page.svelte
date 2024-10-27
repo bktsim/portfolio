@@ -53,7 +53,7 @@
             </ul>
         </div>
         <button
-            class="col-span-7 box text-left"
+            class="col-span-7 box text-left hover:bg-gray-100"
             on:click={() =>
                 window.open("https://jobs.brendontsim.com", "_blank")}
         >

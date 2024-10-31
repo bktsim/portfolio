@@ -22,6 +22,15 @@
                     javascript, svelte, oracle cloud, apache2
                 </div>
             </div>
+            <div
+                class="flex justify-center w-full my-4 object-contain overflow-hidden rounded-xl"
+            >
+                <img
+                    class="max-h-80 border-2"
+                    src="./jobs.png"
+                    alt="landing page of japan job board site"
+                />
+            </div>
             <ul class="list">
                 <li>
                     building job board that scrapes jobs of top companies in
@@ -61,7 +70,7 @@
                 </ul>
             </div>
         -->
-        <div class="col-span-7 sm:col-span-4 box">
+        <div class="col-span-7 box">
             <h5 class="my-0 py-0">raft</h5>
             <div class="project">
                 <div>distributed computing</div>
@@ -83,19 +92,6 @@
                 </li>
             </ul>
         </div>
-        <div class="col-span-7 sm:col-span-3 box">
-            <h5 class="my-0 py-0">promela</h5>
-            <div class="project">
-                <div>software verification</div>
-                <div class="text-gray-400">SPIN</div>
-            </div>
-            <ul class="list">
-                <li>
-                    used LTL in Promela (SPIN) to verify correctness of
-                    concurrent protocols
-                </li>
-            </ul>
-        </div>
         <button
             class="col-span-7 box text-left hover:bg-gray-100 flex flex-col justify-start"
             on:click={() => window.open("https://hashbot.pages.dev", "_blank")}
@@ -104,6 +100,15 @@
             <div class="project">
                 <div>web development, compilers</div>
                 <div class="text-gray-400">typescript, react, next.js</div>
+            </div>
+            <div
+                class="flex justify-center w-full my-4 object-contain overflow-hidden rounded-xl"
+            >
+                <img
+                    class="max-h-96 border-2"
+                    src="./hashbot.png"
+                    alt="landing page of japan job board site"
+                />
             </div>
             <ul class="list">
                 <li>
@@ -159,6 +164,16 @@
                 <div>machine learning, computer vision</div>
                 <div class="text-gray-400">python, YOLOV8, OpenCV</div>
             </div>
+            <div
+                class="flex justify-center w-full my-4 object-contain overflow-hidden rounded-xl"
+            >
+                <img
+                    class="max-h-96 border-2"
+                    src="./cv.png"
+                    alt="landing page of japan job board site"
+                />
+            </div>
+
             <ul class="list">
                 <li>
                     built dataset from scratch and trained a coin segmentation &
@@ -171,6 +186,20 @@
             </ul>
         </button>
         <div class="col-span-7 sm:col-span-4 grid grid-cols-1 gap-6">
+            <div class="col-span-1 box">
+                <h5 class="my-0 py-0">promela</h5>
+                <div class="project">
+                    <div>software verification</div>
+                    <div class="text-gray-400">SPIN</div>
+                </div>
+                <ul class="list">
+                    <li>
+                        used LTL in Promela (SPIN) to verify correctness of
+                        concurrent protocols
+                    </li>
+                </ul>
+            </div>
+
             <button
                 class="col-span-1 box text-left hover:bg-gray-100 flex flex-col justify-start"
                 on:click={() =>
@@ -220,7 +249,15 @@
                 <div>game dev</div>
                 <div class="text-gray-400">lua</div>
             </div>
-
+            <div
+                class="flex justify-center w-full my-4 object-contain overflow-hidden rounded-xl"
+            >
+                <img
+                    class="max-h-80 border-2"
+                    src="./roblox.png"
+                    alt="landing page of japan job board site"
+                />
+            </div>
             <ul class="list">
                 <li>
                     6+ years of ROBLOX game development as both leader and

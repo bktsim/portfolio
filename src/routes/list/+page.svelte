@@ -136,6 +136,9 @@
         <li><a href="https://roadmap.sh/" target="_blank">roadmaps.sh</a></li>
     </ul>
     <br />
-    <h5>mlops? compilers? performance eng? hpc? transformer internals?</h5>
-    <p>need to find more resources in these categories.</p>
+    <h5>mlops, compilers, performance eng, hpc, transformer internals</h5>
+    <p>
+        would like to learn more: need to find more resources in these
+        categories.
+    </p>
 </main>

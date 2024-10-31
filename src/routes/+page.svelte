@@ -65,9 +65,13 @@
         <div class="col-span-6 sm:col-span-3 box">
             <h4>current status</h4>
             <ul class="list">
-                <li>japan prep</li>
-                <li>building job board project</li>
-                <li>working on database textbooks</li>
+                <li>waiting for my visa</li>
+                <li>
+                    <a href="https://jobs.brendontsim.com" target="_blank"
+                        >job board project</a
+                    >
+                </li>
+                <li>reading cool textbooks</li>
             </ul>
         </div>
     </div>

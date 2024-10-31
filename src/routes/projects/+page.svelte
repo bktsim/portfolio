@@ -6,52 +6,6 @@
 <main>
     <Navbar />
     <div class="w-full grid grid-cols-7 gap-6">
-        <div class="col-span-7 box">
-            <h5 class="my-0 py-0">this website</h5>
-            <div class="project">
-                <div>web development</div>
-                <div class="text-gray-400">svelte</div>
-            </div>
-            <ul class="list">
-                <li>ur looking at it right now. built with svelte!</li>
-            </ul>
-        </div>
-
-        <div class="col-span-7 sm:col-span-4 box">
-            <h5 class="my-0 py-0">raft</h5>
-            <div class="project">
-                <div>distributed computing</div>
-                <div class="text-gray-400">go (golang)</div>
-            </div>
-            <ul class="list">
-                <li>
-                    implemented raft, a distsys consensus algorithm in Go (as
-                    seen in
-                    <a
-                        href="https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14.pdf"
-                        target="_blank"
-                        alt="link to the paper for raft">ATC2014</a
-                    >)
-                </li>
-                <li>
-                    built KVServer on top with strong consistency guarantees,
-                    basic sharding and tolerable to non-byzantine failures.
-                </li>
-            </ul>
-        </div>
-        <div class="col-span-7 sm:col-span-3 box">
-            <h5 class="my-0 py-0">promela</h5>
-            <div class="project">
-                <div>software verification</div>
-                <div class="text-gray-400">SPIN</div>
-            </div>
-            <ul class="list">
-                <li>
-                    used LTL in Promela (SPIN) to verify correctness of
-                    concurrent protocols
-                </li>
-            </ul>
-        </div>
         <button
             class="col-span-7 box text-left hover:bg-gray-100"
             on:click={() =>
@@ -94,6 +48,54 @@
                 </li>
             </ul>
         </button>
+
+        <!--
+            <div class="col-span-7 box">
+                <h5 class="my-0 py-0">this website</h5>
+                <div class="project">
+                    <div>web development</div>
+                    <div class="text-gray-400">svelte</div>
+                </div>
+                <ul class="list">
+                    <li>ur looking at it right now. built with svelte!</li>
+                </ul>
+            </div>
+        -->
+        <div class="col-span-7 sm:col-span-4 box">
+            <h5 class="my-0 py-0">raft</h5>
+            <div class="project">
+                <div>distributed computing</div>
+                <div class="text-gray-400">go (golang)</div>
+            </div>
+            <ul class="list">
+                <li>
+                    implemented raft, a distsys consensus algorithm in Go (as
+                    seen in
+                    <a
+                        href="https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14.pdf"
+                        target="_blank"
+                        alt="link to the paper for raft">ATC2014</a
+                    >)
+                </li>
+                <li>
+                    built KVServer on top with strong consistency guarantees,
+                    basic sharding and tolerable to non-byzantine failures.
+                </li>
+            </ul>
+        </div>
+        <div class="col-span-7 sm:col-span-3 box">
+            <h5 class="my-0 py-0">promela</h5>
+            <div class="project">
+                <div>software verification</div>
+                <div class="text-gray-400">SPIN</div>
+            </div>
+            <ul class="list">
+                <li>
+                    used LTL in Promela (SPIN) to verify correctness of
+                    concurrent protocols
+                </li>
+            </ul>
+        </div>
         <button
             class="col-span-7 box text-left hover:bg-gray-100 flex flex-col justify-start"
             on:click={() => window.open("https://hashbot.pages.dev", "_blank")}

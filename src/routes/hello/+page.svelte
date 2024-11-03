@@ -1,6 +1,18 @@
 <script>
     import Navbar from "$lib/Navbar.svelte";
     import { SUBWAY } from "../../resource.js";
+
+    const stat = {
+        jobs: 0,
+        web: 1,
+        hashbot: 2,
+    };
+
+    const imageStatus = [false, false, false];
+
+    const flipStatus = (changeStat) => {
+        imageStatus[stat[changeStat]] = !imageStatus[stat[changeStat]];
+    };
 </script>
 
 <main>
@@ -54,6 +66,26 @@
         <h5 class="font-semibold">Projects</h5>
         <ul class="list">
             <li>
+                <b>[WebDev/AppliedML]</b> Created a
+                <a href="https://jobs.brendontsim.com" target="_blank"
+                    >japan job board</a
+                > with workflow that scrapes jobs on web before labelling with LLM
+                in Go (Golang) and Svelte. Built services that are containerized
+                in Docker and communicate through RabbitMQ and gRPC. Frontend has
+                light caching and allows user to query based on tags into Postgres
+                DB.
+            </li>
+            <div
+                class={"flex justify-center w-full my-4 object-contain overflow-hidden rounded-xl"}
+            >
+                <img
+                    class="max-h-80 border-2"
+                    src="./jobs.png"
+                    alt="landing page of japan job board site"
+                />
+            </div>
+
+            <li>
                 <b>[DistSys] </b> Implemented
                 <a
                     href="https://www.usenix.org/conference/atc14/technical-sessions/presentation/ongaro"
@@ -66,28 +98,56 @@
                 using YOLOV8 and Python. Implemented utility tool using Hough Circle
                 Transform to help labelling process.
             </li>
+            <div
+                class="flex justify-center w-full my-4 object-contain overflow-hidden rounded-xl"
+            >
+                <img
+                    class="max-h-96 border-2"
+                    src="./cv.png"
+                    alt="landing page of japan job board site"
+                />
+            </div>
             <li>
                 <b>[WebDev]</b> Made
-                <a href="https://www.hashbot.io/">hashbot.io</a> for a Discord bot
-                with 10M+ users in TypeScript & Next.js.
+                <a href="https://hashbot.pages.dev/" target="_blank"
+                    >hashbot.io</a
+                > for a Discord bot with 10M+ users in TypeScript & Next.js.
             </li>
+            <div
+                class="flex justify-center w-full my-4 object-contain overflow-hidden rounded-xl"
+            >
+                <img
+                    class="max-h-96 border-2"
+                    src="./hashbot.png"
+                    alt="landing page of japan job board site"
+                />
+            </div>
             <li>
                 <b>[GameDev]</b> Worked on updates using Lua for Starship
                 Roleplay, (3M+ unique game visits). Also made my own games:
                 <a
                     href="https://www.roblox.com/games/5609136861/Homework-Simulator"
-                    >Homework Simulator</a
+                    target="_blank">Homework Simulator</a
                 >
                 and
                 <a
                     href="https://roblox.com/games/139404174858131/king-of-the-king-of-the-hills"
-                    >King of the King of the Hills</a
+                    target="_blank">King of the King of the Hills</a
                 >.
             </li>
+            <div
+                class="flex justify-center w-full my-4 object-contain overflow-hidden rounded-xl"
+            >
+                <img
+                    class="max-h-80 border-2"
+                    src="./roblox.png"
+                    alt="landing page of japan job board site"
+                />
+            </div>
         </ul>
         <p class="pt-2">
             <b>Technologies:</b>
-            Go (Golang), TypeScript, Python, Lua
+            Go (Golang), TypeScript, Python, Lua, Docker, Svelte, RabbitMQ, LLMs
         </p>
     </div>
     <div class="pt-10">
